@@ -99,7 +99,7 @@ if(_result == 1) then
 deleteVehicle _vehicle;
 {deleteVehicle _x;}forEach units CivGrpM;
 deleteGroup CivGrpM;
-_hint = parseText format ["<t align='center' color='%1' shadow='2' size='1.75'>Supply Mission</t><br/><t align='center' color='%1'>------------------------------</t><br/><t align='center'><img size='5' image='%3'/></t><br/><t align='center' color='%2'>The %4 has fell off the grid, return to base</t>", _HeadColor, _subTextColour, _picture,_name];
+_hint = parseText format ["<t align='center' color='%1' shadow='2' size='1.75'>Supply Mission</t><br/><t align='center' color='%1'>------------------------------</t><br/><t align='center'><img size='5' image='%3'/></t><br/><t align='center' color='%2'>The %4 has fallen off the grid, return to base</t>", _HeadColor, _subTextColour, _picture,_name];
 [nil,nil,rHINT,_hint] call RE;
 MissionSpawnMarkers select _randomIndex set[1, false]; //Reset the mission spawn bool
 diag_log format["WASTELAND SERVER - Mission Failed"];
