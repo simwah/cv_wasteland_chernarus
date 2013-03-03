@@ -130,7 +130,7 @@ if  ((damage _truck) == 1) then {
 	deleteVehicle _deftruck1;
     {deleteVehicle _x;}forEach units CivgrpS;
     deleteGroup CivgrpS;
-    _hint = parseText format ["<t align='center' color='%4' shadow='2' size='1.75'>Objective Failed</t><br/><t align='center' color='%4'>------------------------------</t><br/><t align='center' color='%5' size='1.25'>%1</t><br/><t align='center'><img size='5' image='%2'/></t><br/><t align='center' color='%5'>Objective failed, someone blow up the objectif!</t>", _missionType, _picture, _vehicleName, failMissionColor, subTextColor];
+    _hint = parseText format ["<t align='center' color='%4' shadow='2' size='1.75'>Objective Failed</t><br/><t align='center' color='%4'>------------------------------</t><br/><t align='center' color='%5' size='1.25'>%1</t><br/><t align='center'><img size='5' image='%2'/></t><br/><t align='center' color='%5'>Objective failed, someone blow up the objective!</t>", _missionType, _picture, _vehicleName, failMissionColor, subTextColor];
 	[nil,nil,rHINT,_hint] call RE;
 	//Reset the mission spawn bool
     diag_log format["WASTELAND SERVER - side Mission Failed: %1",_missionType];
