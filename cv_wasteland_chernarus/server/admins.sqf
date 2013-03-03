@@ -17,12 +17,15 @@ if(!X_Server) exitWith {};
 //24916422 = Sparky
 //39677702 = CheeseBall
 //35101574 = JPnopants
+//88556230 = stig-22
+//3467584 = Sim
+//90884614 = Click85
 
-moderators = ["35101574","36525510","2703622","907841","24938822","57444422","88335878","39677702","24916422"]; 
+moderators = ["35101574","36525510","2703622","907841","24938822","57444422","88335878","39677702","24916422","90884614"]; 
 publicVariable "moderators"; 
            
 administrators = ["2636294"];
 publicVariable "administrators";
 
-serverAdministrators = ["5582016","313153AX","48480006","25315782"];
+serverAdministrators = ["5582016","313153AX","48480006","25315782","88556230","3467584"];
 publicVariable "serverAdministrators";
