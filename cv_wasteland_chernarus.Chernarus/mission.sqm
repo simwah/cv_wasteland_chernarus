@@ -13,7 +13,6 @@ class Mission
 		"cabuildings",
 		"cacharacters_baf",
 		"CAAir_E_UH1H_EP1",
-		"CAAir_BAF",
 		"caair_baf_ch_47f",
 		"CAAir_E_AH6J",
 		"CAWater",
@@ -42,11 +41,12 @@ class Mission
 		"caair2_uh1y",
 		"CAWheeled2_TowingTractor",
 		"camisc_e",
-		"caweapons_baf",
 		"cawater2_fregata",
+		"caweapons_baf",
 		"CAAir",
 		"caweapons",
 		"CAWater2_seafox",
+		"CAAir_E_AH6J",
 		"chernarus"
 	};
 	randomSeed=10079095;
@@ -2676,7 +2676,7 @@ class Mission
 				{
 					position[]={14459.526,0.20752016,354.86682};
 					azimut=358.59799;
-					id=172;
+					id=171;
 					side="LOGIC";
 					vehicle="LocationLogic";
 					leader=1;
@@ -2696,7 +2696,7 @@ class Mission
 				{
 					position[]={14434.296,0.45052081,356.20697};
 					special="NONE";
-					id=199;
+					id=197;
 					side="CIV";
 					vehicle="Rocker1";
 					leader=1;
@@ -2717,7 +2717,7 @@ class Mission
 				{
 					position[]={14436.723,0.45093188,356.20697};
 					special="NONE";
-					id=200;
+					id=198;
 					side="CIV";
 					vehicle="Rocker3";
 					leader=1;
@@ -2738,7 +2738,7 @@ class Mission
 				{
 					position[]={14438.743,0.43996644,356.34064};
 					special="NONE";
-					id=201;
+					id=199;
 					side="CIV";
 					vehicle="Rocker2";
 					leader=1;
@@ -2759,7 +2759,7 @@ class Mission
 				{
 					position[]={14434.161,0.45432204,354.0509};
 					special="NONE";
-					id=202;
+					id=200;
 					side="CIV";
 					vehicle="Citizen3";
 					leader=1;
@@ -2780,7 +2780,7 @@ class Mission
 				{
 					position[]={14436.676,0.43904573,354.14063};
 					special="NONE";
-					id=203;
+					id=201;
 					side="CIV";
 					vehicle="Profiteer2_EP1";
 					leader=1;
@@ -2801,7 +2801,7 @@ class Mission
 				{
 					position[]={14438.729,0.41675311,354.26056};
 					special="NONE";
-					id=204;
+					id=202;
 					side="CIV";
 					vehicle="Profiteer4";
 					leader=1;
@@ -2815,7 +2815,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=69;
+		items=70;
 		class Item0
 		{
 			position[]={8343.0654,26.779518,3340.9795};
@@ -3246,22 +3246,9 @@ class Mission
 		};
 		class Item40
 		{
-			position[]={14515.964,0.03800454,368.70062};
-			azimut=360.00601;
-			special="NONE";
-			id=170;
-			side="EMPTY";
-			vehicle="GunrackUS_EP1";
-			lock="UNLOCKED";
-			skill=0.60000002;
-			text="fp10";
-			init="this setPosASL [position this select 0, position this select 1, 15.3];";
-		};
-		class Item41
-		{
 			position[]={14542.124,0.28173271,370.43243};
 			azimut=0.324577;
-			id=171;
+			id=170;
 			side="EMPTY";
 			vehicle="HMMWVWreck";
 			lock="UNLOCKED";
@@ -3269,46 +3256,34 @@ class Mission
 			text="dcar1";
 			init="this setPosASL [position this select 0, position this select 1, 15.4];this setVariable [""R3F_LOG_disabled"", true]; ";
 		};
-		class Item42
-		{
-			position[]={14518.786,0.072250523,368.68231};
-			azimut=360.00601;
-			special="NONE";
-			id=173;
-			side="EMPTY";
-			vehicle="BAF_BasicWeapons";
-			lock="UNLOCKED";
-			skill=0.60000002;
-			init="nul = this execVM ""ammo.sqf"";this setPosASL [position this select 0, position this select 1, 15.3];";
-		};
-		class Item43
+		class Item41
 		{
 			position[]={14460.738,0.19408183,364.89349};
 			special="NONE";
-			id=174;
+			id=172;
 			side="EMPTY";
 			vehicle="Land_ladder_half";
 			lock="UNLOCKED";
 			skill=0.60000002;
 			init="this setPosASL [position this select 0, position this select 1, 15.5];this setVariable [""R3F_LOG_disabled"", true]; ";
 		};
-		class Item44
+		class Item42
 		{
 			position[]={14491.384,0.28106502,340.58807};
 			special="NONE";
-			id=175;
+			id=173;
 			side="EMPTY";
 			vehicle="Land_ladderEP1";
 			lock="UNLOCKED";
 			skill=0.60000002;
 			init="this setPosASL [position this select 0, position this select 1, 1.1];this addAction [""Board Carrier"",""scripts\carrierret.sqf"",[],1,false,true,"""",""_this == driver _target""];this allowdamage false;this setVariable[""original"",1,true];this setVariable [""R3F_LOG_disabled"", true];";
 		};
-		class Item45
+		class Item43
 		{
 			position[]={14448.894,0.40301025,339.78503};
 			azimut=270;
 			special="NONE";
-			id=176;
+			id=174;
 			side="EMPTY";
 			vehicle="HeliHEmpty";
 			lock="UNLOCKED";
@@ -3316,11 +3291,11 @@ class Mission
 			text="wthook";
 			init="this setPosASL [position this select 0, position this select 1, 14.9];";
 		};
-		class Item46
+		class Item44
 		{
 			position[]={14448.904,0.33844522,342.76978};
 			azimut=268.957;
-			id=177;
+			id=175;
 			side="EMPTY";
 			vehicle="Zodiac";
 			lock="UNLOCKED";
@@ -3329,12 +3304,12 @@ class Mission
 			text="crb";
 			init="this attachTo [wthook,[0,0,-5.2]];this allowdamage false;this setVariable [""R3F_LOG_disabled"", true];nul=[crb] execVM ""sig\vehiclelock.sqf"";this setVariable[""0riginal"",1,true];";
 		};
-		class Item47
+		class Item45
 		{
 			position[]={14491.736,0.28719872,247.80768};
 			azimut=-270.20801;
 			special="NONE";
-			id=178;
+			id=176;
 			side="EMPTY";
 			vehicle="Land_Fregata";
 			leader=1;
@@ -3342,11 +3317,11 @@ class Mission
 			text="ds1";
 			init="this setVectorUp [1,10,20];this setPosASL [position this select 0, position this select 1, -3.5]; ";
 		};
-		class Item48
+		class Item46
 		{
 			position[]={14499.886,0.36350551,252.99225};
 			azimut=0.324577;
-			id=179;
+			id=177;
 			side="EMPTY";
 			vehicle="HeliHEmpty";
 			lock="UNLOCKED";
@@ -3354,12 +3329,12 @@ class Mission
 			text="dcar2";
 			init="this setPosASL [position this select 0, position this select 1, 6.5];this setVariable [""R3F_LOG_disabled"", true]; this setVariable[""original"",1,true];BIS_Effects_Burn = compile preprocessFile ""\ca\Data\ParticleEffects\SCRIPTS\destruction\burn.sqf""; nul=[dcar2, 10, 750, false, true] spawn BIS_Effects_Burn;";
 		};
-		class Item49
+		class Item47
 		{
 			position[]={14453.828,0.35750037,366.94769};
 			azimut=270;
 			special="NONE";
-			id=180;
+			id=178;
 			side="EMPTY";
 			vehicle="BAF_L2A1_Tripod_D";
 			lock="UNLOCKED";
@@ -3367,12 +3342,12 @@ class Mission
 			text="c1g4";
 			init="this setPosASL [position this select 0, position this select 1, 19];this setVariable[""original"",1,true];this setVariable [""R3F_LOG_disabled"", true]; ";
 		};
-		class Item50
+		class Item48
 		{
 			position[]={14479.179,0.16578338,366.11365};
 			azimut=270;
 			special="NONE";
-			id=181;
+			id=179;
 			side="EMPTY";
 			vehicle="BAF_L2A1_Tripod_D";
 			lock="UNLOCKED";
@@ -3380,12 +3355,12 @@ class Mission
 			text="c1g3";
 			init="this setPosASL [position this select 0, position this select 1, 27];this setVariable[""original"",1,true];this setVariable [""R3F_LOG_disabled"", true]; ";
 		};
-		class Item51
+		class Item49
 		{
 			position[]={14537.179,0.20305325,335.77777};
 			azimut=270;
 			special="NONE";
-			id=182;
+			id=180;
 			side="EMPTY";
 			vehicle="HeliHRescue";
 			lock="UNLOCKED";
@@ -3393,24 +3368,24 @@ class Mission
 			text="wthook_1";
 			init="this setPosASL [position this select 0, position this select 1, 15.3];";
 		};
-		class Item52
+		class Item50
 		{
 			position[]={14442.761,0.35011086,367.23291};
 			azimut=220;
-			id=183;
+			id=181;
 			side="EMPTY";
 			vehicle="MH60S";
 			lock="UNLOCKED";
 			skill=0.60000002;
 			text="MH601";
-			init="this setPosASL [position this select 0, position this select 1, 15.9];this setVariable[""original"",1,true];veh = [this, 300, 0, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="this setPosASL [position this select 0, position this select 1, 15.9];this setVariable[""original"",1,true];veh = [this, 1800, 0, 3, TRUE, FALSE] execVM ""vehicle2.sqf"";";
 		};
-		class Item53
+		class Item51
 		{
 			presence=0.095818296;
 			position[]={14424.961,0.27194095,367.80493};
 			azimut=220;
-			id=184;
+			id=182;
 			side="EMPTY";
 			vehicle="MH60S";
 			lock="UNLOCKED";
@@ -3418,12 +3393,12 @@ class Mission
 			text="MH602";
 			init="this setPosASL [position this select 0, position this select 1, 15.9];this setVariable[""original"",1,true];";
 		};
-		class Item54
+		class Item52
 		{
 			presence=0.095852435;
 			position[]={14405.86,0.43538466,363.33392};
 			azimut=220;
-			id=185;
+			id=183;
 			side="EMPTY";
 			vehicle="UH1Y";
 			lock="UNLOCKED";
@@ -3431,11 +3406,11 @@ class Mission
 			text="UH1Y_1";
 			init="this setPosASL [position this select 0, position this select 1, 15.9];this setVariable[""original"",1,true];";
 		};
-		class Item55
+		class Item53
 		{
 			position[]={14412.783,0.33676079,378.0155};
 			special="NONE";
-			id=186;
+			id=184;
 			side="EMPTY";
 			vehicle="M2StaticMG";
 			lock="UNLOCKED";
@@ -3443,12 +3418,12 @@ class Mission
 			text="c1g6";
 			init="this setPosASL [getposASL this select 0, getposASL this select 1, 14];this setVariable[""original"",1,true];this setVariable [""R3F_LOG_disabled"", true]; ";
 		};
-		class Item56
+		class Item54
 		{
 			position[]={14425.837,0.2787638,338.32373};
 			azimut=180;
 			special="NONE";
-			id=187;
+			id=185;
 			side="EMPTY";
 			vehicle="M2StaticMG";
 			lock="UNLOCKED";
@@ -3456,12 +3431,12 @@ class Mission
 			text="c1g5";
 			init="this setPosASL [getposASL this select 0, getposASL this select 1, 14]; this allowDamage false;this setVariable[""original"",1,true];this setVariable [""R3F_LOG_disabled"", true]; ";
 		};
-		class Item57
+		class Item55
 		{
 			position[]={14618.346,0.30388638,352.71857};
 			azimut=91.689697;
 			special="NONE";
-			id=188;
+			id=186;
 			side="EMPTY";
 			vehicle="M2StaticMG";
 			lock="UNLOCKED";
@@ -3469,12 +3444,12 @@ class Mission
 			text="c1g2";
 			init="this setPosASL [getposASL this select 0, getposASL this select 1, 12.3];this setVariable[""original"",1,true];this setVariable [""R3F_LOG_disabled"", true]; ";
 		};
-		class Item58
+		class Item56
 		{
 			position[]={14618.398,0.21816801,363.25446};
 			azimut=91.689697;
 			special="NONE";
-			id=189;
+			id=187;
 			side="EMPTY";
 			vehicle="M2StaticMG";
 			lock="UNLOCKED";
@@ -3482,11 +3457,11 @@ class Mission
 			text="c1g1";
 			init="this setPosASL [getposASL this select 0, getposASL this select 1, 12.3];this setVariable[""original"",1,true];this setVariable [""R3F_LOG_disabled"", true]; ";
 		};
-		class Item59
+		class Item57
 		{
 			position[]={14499.979,0.042383932,390.97925};
 			azimut=268.957;
-			id=190;
+			id=188;
 			side="EMPTY";
 			vehicle="SeaFox";
 			lock="LOCKED";
@@ -3495,11 +3470,11 @@ class Mission
 			text="wt1_1_2";
 			init="this setVariable[""original"",1,true];this setVariable [""R3F_LOG_disabled"", true];this addAction [""Board LHD Carrier"", ""scripts\carrierret.sqf"",[""1""],1,false];this allowdamage false;";
 		};
-		class Item60
+		class Item58
 		{
 			position[]={14515.658,0.065164156,335.4223};
 			azimut=268.957;
-			id=191;
+			id=189;
 			side="EMPTY";
 			vehicle="SeaFox";
 			lock="LOCKED";
@@ -3508,12 +3483,12 @@ class Mission
 			text="wt1_1_3";
 			init="this setVariable[""original"",1,true];this setVariable [""R3F_LOG_disabled"", true];this addAction [""Board LHD Carrier"", ""scripts\carrierret.sqf"",[""1""],1,false];this allowdamage false;";
 		};
-		class Item61
+		class Item59
 		{
 			position[]={14447.439,0.43027166,330.14374};
 			azimut=90;
 			special="NONE";
-			id=192;
+			id=190;
 			side="EMPTY";
 			vehicle="PBX";
 			lock="UNLOCKED";
@@ -3521,12 +3496,12 @@ class Mission
 			text="trck24";
 			init="this addAction [""Dock Boat"",""scripts\launch1.sqf"",[],1,false,true,"""",""_this == driver _target""];this addAction [""Launch Boat"",""scripts\launch.sqf"",[],1,false,true,"""",""_this == driver _target""];this setVariable[""original"",1,true];";
 		};
-		class Item62
+		class Item60
 		{
 			position[]={14484.874,0.23262645,339.41516};
 			azimut=270;
 			special="NONE";
-			id=193;
+			id=191;
 			side="EMPTY";
 			vehicle="HeliHEmpty";
 			lock="UNLOCKED";
@@ -3534,12 +3509,12 @@ class Mission
 			text="aav_2";
 			init="this setPosASL [position this select 0, position this select 1, 15.9];";
 		};
-		class Item63
+		class Item61
 		{
 			position[]={14460.101,0.410382,339.81891};
 			azimut=270;
 			special="NONE";
-			id=194;
+			id=192;
 			side="EMPTY";
 			vehicle="HeliHEmpty";
 			lock="UNLOCKED";
@@ -3547,24 +3522,24 @@ class Mission
 			text="aav_3";
 			init="this setPosASL [position this select 0, position this select 1, 15.9];";
 		};
-		class Item64
+		class Item62
 		{
 			position[]={14418.549,0.21064073,331.18378};
 			azimut=90;
 			special="NONE";
-			id=195;
+			id=193;
 			side="EMPTY";
 			vehicle="RHIB2Turret";
 			lock="UNLOCKED";
 			skill=0.60000002;
 			init="this addAction [""Dock Boat"",""scripts\launch1.sqf"",[],1,false,true,"""",""_this == driver _target""];this addAction [""Launch Boat"",""scripts\launch.sqf"",[],1,false,true,"""",""_this == driver _target""];this setVariable[""original"",1,true];";
 		};
-		class Item65
+		class Item63
 		{
 			position[]={14483.013,0.38850299,330.95764};
 			azimut=90;
 			special="NONE";
-			id=196;
+			id=194;
 			side="EMPTY";
 			vehicle="Zodiac";
 			lock="UNLOCKED";
@@ -3572,12 +3547,12 @@ class Mission
 			text="trck_2";
 			init="this addAction [""Dock Boat"",""scripts\launch1.sqf"",[],1,false,true,"""",""_this == driver _target""];this addAction [""Launch Boat"",""scripts\launch.sqf"",[],1,false,true,"""",""_this == driver _target""];this setVariable[""original"",1,true];";
 		};
-		class Item66
+		class Item64
 		{
 			position[]={14499.857,0.27691966,339.46277};
 			azimut=270;
 			special="NONE";
-			id=197;
+			id=195;
 			side="EMPTY";
 			vehicle="HeliHEmpty";
 			lock="UNLOCKED";
@@ -3585,30 +3560,63 @@ class Mission
 			text="aav_4";
 			init="this setPosASL [position this select 0, position this select 1, 15.9];";
 		};
-		class Item67
+		class Item65
 		{
 			position[]={14396.605,0.19887967,331.63422};
 			azimut=90;
 			special="NONE";
-			id=198;
+			id=196;
 			side="EMPTY";
 			vehicle="RHIB";
 			lock="UNLOCKED";
 			skill=0.60000002;
 			init="this addAction [""Dock Boat"",""scripts\launch1.sqf"",[],1,false,true,"""",""_this == driver _target""];this addAction [""Launch Boat"",""scripts\launch.sqf"",[],1,false,true,"""",""_this == driver _target""];this setVariable[""original"",1,true];";
 		};
-		class Item68
+		class Item66
 		{
 			position[]={14305.354,0.45440415,304.06952};
 			azimut=90;
 			special="NONE";
-			id=205;
+			id=203;
 			side="EMPTY";
 			vehicle="RHIB";
 			lock="UNLOCKED";
 			skill=0.60000002;
 			text="boat1";
 			init="this addAction [""Dock Boat"",""scripts\launch1.sqf"",[],1,false,true,"""",""_this == driver _target""];this addAction [""Launch Boat"",""scripts\launch.sqf"",[],1,false,true,"""",""_this == driver _target""];this setVariable[""original"",1,true];";
+		};
+		class Item67
+		{
+			position[]={4727.2305,8.9928007,2541.96};
+			azimut=220;
+			id=204;
+			side="EMPTY";
+			vehicle="AH6J_EP1";
+			lock="UNLOCKED";
+			skill=0.60000002;
+			init="veh = [this, 1800, 0, 3, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+		};
+		class Item68
+		{
+			position[]={12048.146,158.8,12679.865};
+			azimut=220;
+			id=205;
+			side="EMPTY";
+			vehicle="AH6J_EP1";
+			lock="UNLOCKED";
+			skill=0.60000002;
+			init="veh = [this, 1800, 0, 3, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+		};
+		class Item69
+		{
+			position[]={4775.272,339,10209.501};
+			azimut=220;
+			id=206;
+			side="EMPTY";
+			vehicle="AH6J_EP1";
+			lock="UNLOCKED";
+			skill=0.60000002;
+			init="veh = [this, 1800, 0, 3, TRUE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 	};
 	class Markers
