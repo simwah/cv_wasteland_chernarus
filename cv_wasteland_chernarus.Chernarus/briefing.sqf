@@ -181,8 +181,8 @@ player createDiaryRecord["changelog",
 "
 <br/>
 		[Fixed] - Some larger items were not able to be locked.<br/>
-            [Added] - SUV Skins<br/>
-            [Added] - Better creates!<br/>
+                [Added] - SUV Skins<br/>
+                [Added] - Better creates!<br/>
 "
 ]
 ];
@@ -192,7 +192,7 @@ player createDiaryRecord["changelog",
 "
 <br/>
 		[Fixed] - Heli Mission.<br/>
-            [Changed] - Environment Settings.<br/>
+                [Changed] - Environment Settings.<br/>
 "
 ]
 ];
@@ -201,9 +201,9 @@ player createDiaryRecord["changelog",
 "v13.5",
 "
 <br/>
-             [Changed] - Environment Settings. (removed overcast colour)<br/>
-             [Added] - Zone Spawn Locations.<br/>
-             [Fixed] - Minor Skin Issues.<br/>
+                [Changed] - Environment Settings. (removed overcast colour)<br/>
+                [Added] - Zone Spawn Locations.<br/>
+                [Fixed] - Minor Skin Issues.<br/>
 "
 ]
 ];
@@ -212,31 +212,8 @@ player createDiaryRecord["changelog",
 "v13.7",
 "
 <br/>
-            [Changed] - Price Changes.<br/>
-            [Fixed] - Minor Bugs.<br/>
-"
-]
-];
-player createDiaryRecord["changelog",
-[
-"v13.8",
-"
-<br/>
-            [Fixed] - Fuel Cans not refilling.<br/>
-		[Fixed] - Deer Stand Flying.<br/>
- 	 	[Fixed] - No limit on gunstore ammo.<br/>
- 	 	[Fixed] - Supply Drop Mission Food Stand.<br/>
-"
-]
-];
-player createDiaryRecord["changelog",
-[
-"v13.9",
-"
-<br/>
-            [Added] - LHD Ship off the Coast.<br/>
-		[Added] - Air Dropped Missions.<br/>
-		[Added] - Convoy Missions.<br/>
+                [Changed] - Price Changes.<br/>
+                [Fixed] - Minor Bugs.<br/>
 "
 ]
 ];

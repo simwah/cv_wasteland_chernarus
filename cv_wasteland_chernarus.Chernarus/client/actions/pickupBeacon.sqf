@@ -30,7 +30,7 @@ _iteration = 0;
 if(_destroyOrSteal == 0 AND (player getVariable "spawnBeacon") > 0) exitWith {
 	player globalChat localize "STR_WL_Errors_BeaconTooMany";
 }; 
-	
+
 player switchMove "AinvPknlMstpSlayWrflDnon_medic"; // Begin the full medic animation...
 
 switch (_destroyOrSteal) do {
@@ -41,7 +41,7 @@ switch (_destroyOrSteal) do {
      	mutexScriptInProgress = true;
     
 		for "_iteration" from 1 to _lockDuration do {
-			
+
            	if(vehicle player != player) exitWith { // A little inspiration from R3F
 				player globalChat localize "STR_WL_Errors_BeaconInVehicle";
         		player action ["eject", vehicle player];
@@ -64,21 +64,21 @@ switch (_destroyOrSteal) do {
 				2 cutText ["Steal spawn beacon interrupted...", "PLAIN DOWN", 1];
 		        mutexScriptInProgress = false;
 			}; 
-		    
+
 		    if (animationState player != "AinvPknlMstpSlayWrflDnon_medic") then { // Keep the player locked in medic animation for the full duration of the steal.
 		        player switchMove "AinvPknlMstpSlayWrflDnon_medic";
 		    };
-		    
+
             _lockDuration = _lockDuration - 1;
 			_iterationPercentage = floor (_iteration / _totalDuration * 100);
-				    
+
 			2 cutText [format["Steal spawn beacon %1%2 complete", _iterationPercentage, _stringEscapePercent], "PLAIN DOWN", 1];
 			sleep 1;
-				    
+
 			if (_iteration >= _totalDuration) exitWith { // Sleep a little extra to show that steal has completed.
 				sleep 1;
 		        2 cutText ["", "PLAIN DOWN", 1];
-		            
+
                 _currBeaconOwnerUID = _currSpawnBeacon getVariable "ownerUID"; 
                 _currBeaconTemp = (nearestObjects [getpos player, ["Satelit"],  5]);
                     
@@ -121,12 +121,12 @@ switch (_destroyOrSteal) do {
 				2 cutText ["Destroy spawn beacon interrupted...", "PLAIN DOWN", 1];
                 mutexScriptInProgress = false;
 			};    
-						    
+
 			if(player distance _currSpawnBeacon > 5) exitWith { // If the player leaves, revert state.
 				2 cutText ["Destroy spawn beacon interrupted...", "PLAIN DOWN", 1];
 		        mutexScriptInProgress = false;
 			};
-		    
+
 		    if (animationState player != "AinvPknlMstpSlayWrflDnon_medic") then { // Keep the player locked in medic animation for the full duration of the destroy.
 		        player switchMove "AinvPknlMstpSlayWrflDnon_medic";
 		    };    
@@ -136,11 +136,11 @@ switch (_destroyOrSteal) do {
             
             2 cutText [format["Destroy spawn beacon %1%2 complete", _iterationPercentage, _stringEscapePercent], "PLAIN DOWN", 1];
 			sleep 1;
-				    
+
 			if (_iteration >= _totalDuration) exitWith { // Sleep a little extra to show that destroy has completed.
 				sleep 1;
 		        2 cutText ["", "PLAIN DOWN", 1];
-		        
+
                 _currBeaconOwnerUID = _currSpawnBeacon getVariable "ownerUID";
                 _currBeaconTemp = (nearestObjects [getpos player, ["Satelit"],  5]);
                 

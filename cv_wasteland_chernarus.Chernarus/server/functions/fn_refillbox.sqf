@@ -3,7 +3,7 @@
 //	@file Author: [404] Pulse , [404] Costlyy , [404] Deadbeat
 //	@file Created: 22/1/2012 00:00
 //	@file Args: [ OBJECT (Weapons box that needs filling), STRING (Name of the fill to give to object)]
-if (!isServer) exitWith {};
+
 private ["_selectedBox", "_selectedBoxPos", "_finishedBox", "_currBox"];
 
 _box = _this select 0;
@@ -15,7 +15,7 @@ switch(_selectedBox) do {
         
         // Clear prexisting weapons first
         clearMagazineCargoGlobal _currBox;
-		clearWeaponCargoGlobal _currBox;
+	clearWeaponCargoGlobal _currBox;
         
         // Add new weapons before ammunition
 _currBox addWeaponCargoGlobal ["AA12_PMC",2];
@@ -72,7 +72,7 @@ _currBox addMagazineCargoGlobal ["200Rnd_556x45_L110A1",8];
 _currBox addMagazineCargoGlobal ["100Rnd_556x45_BetaCMag",16];	
     };
     case "mission_Side_USLaunchers": { // Used in the airwreck side mission
-    	_currBox = _box;
+    		_currBox = _box;
 
         // Clear prexisting weapons first
         clearMagazineCargoGlobal _currBox;

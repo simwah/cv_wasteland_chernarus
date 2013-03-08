@@ -22,4 +22,3 @@ waitUntil {{!isNull(missionNamespace getVariable _x) && ((getPos(missionNamespac
 	_markerName setMarkerTextLocal "General Store";
 
 } forEach _generalStores;
-

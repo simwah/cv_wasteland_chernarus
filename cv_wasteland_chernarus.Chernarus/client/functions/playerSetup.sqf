@@ -6,7 +6,7 @@
 //	@file Args:
 
 _player = _this;
-//Player initialization
+//Player Initialization
 _player setskill 0;
 {_player disableAI _x} foreach ["move","anim","target","autotarget"];
 _player setVariable ["BIS_noCoreConversations", true];

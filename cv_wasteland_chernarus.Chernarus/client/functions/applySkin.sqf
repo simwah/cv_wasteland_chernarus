@@ -83,7 +83,7 @@ playerSkins = [
 ["SyKa", "", "", "", "RU_Soldier_Sniper"],
 ["=]di[= lentz", "6522310", "Soldier_Engineer_PMC", "", ""],
 ["TOG | Antor", "17495686", "GUE_Soldier_Sab", "", ""],
-["Dadinator", "7655750", "GUE_Soldier_Medic", "", ""],
+["Dadinator�", "7655750", "GUE_Soldier_Medic", "", ""],
 ["Lawful Murder", "45216390", "Soldier_M4A3_PMC", "", ""],
 ["XxPUMB4xX", "2906176", "", "", ""],
 ["Click85", "90884614", "Soldier_PMC", "", ""],
@@ -112,7 +112,6 @@ playerSkins = [
 ["Old Man Peters", "41610630", "GUE_Soldier_Scout", "", ""],
 ["Mik3y", "64534214", "GUE_Soldier_Sniper", "USMC_SoldierS_Sniper", "RU_Soldier_Sniper"],
 ["Xeonau", "64485126", "", "US_Soldier_Sniper_NV_EP1", ""],
-["Dorian", "79491014", "Soldier_Engineer_PMC", "", ""],
 ["Dunkinator", "79609670", "GUE_Soldier_AT", "", ""]
 ];
 

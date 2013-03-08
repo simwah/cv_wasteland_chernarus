@@ -146,5 +146,28 @@ while {true} do
 			([0,0,0] distance velocity R3F_LOG_objet_addAction < 15) && (getPos R3F_LOG_objet_addAction select 2 < 40) && !(R3F_LOG_objet_addAction getVariable "R3F_LOG_disabled"));
 	};
 	
+	// Pour l'héliportation, l'objet n'est plus pointé, mais on est dedans
+	// Si le joueur est dans un superhéliporteur
+	if ({(vehicle player) isKindOf _x} count R3F_LOG_CFG_superheliporteurs > 0) then
+	{
+		R3F_LOG_objet_addAction = vehicle player;
+		
+		// On est dans le véhicule, on affiche pas les options de transporteur et remorqueur
+		R3F_LOG_action_charger_deplace_valide = false;
+		R3F_LOG_action_charger_selection_valide = false;
+		R3F_LOG_action_contenu_vehicule_valide = false;
+		R3F_LOG_action_remorquer_deplace_valide = false;
+		R3F_LOG_action_remorquer_selection_valide = false;
+		
+		// Condition action heliporter
+		R3F_LOG_action_heliporter_valide = (driver R3F_LOG_objet_addAction == player &&
+			({_x != R3F_LOG_objet_addAction && !(_x getVariable "R3F_LOG_disabled")} count (nearestObjects [R3F_LOG_objet_addAction, R3F_LOG_CFG_objets_superheliportables, 15]) > 0) &&
+			isNull (R3F_LOG_objet_addAction getVariable "R3F_LOG_heliporte") && ([0,0,0] distance velocity R3F_LOG_objet_addAction < 6) && (getPos R3F_LOG_objet_addAction select 2 > 1) &&
+			!(R3F_LOG_objet_addAction getVariable "R3F_LOG_disabled"));
+		
+		// Condition action heliport_larguer
+		R3F_LOG_action_heliport_larguer_valide = (driver R3F_LOG_objet_addAction == player && !isNull (R3F_LOG_objet_addAction getVariable "R3F_LOG_heliporte") &&
+			([0,0,0] distance velocity R3F_LOG_objet_addAction < 15) && (getPos R3F_LOG_objet_addAction select 2 < 40) && !(R3F_LOG_objet_addAction getVariable "R3F_LOG_disabled"));
+	};
 	sleep 0.3;
 };

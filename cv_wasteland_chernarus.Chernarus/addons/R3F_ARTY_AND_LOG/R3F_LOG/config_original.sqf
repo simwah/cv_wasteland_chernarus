@@ -89,11 +89,13 @@ R3F_LOG_CFG_objets_remorquables = [
  * Liste des noms de classes des véhicules aériens pouvant héliporter des objets héliportables.
  */
 R3F_LOG_CFG_heliporteurs = [
+	"CH47_base_EP1",
 	"Mi17_base",
 	"Mi24_Base",
 	"UH1H_base",
 	"UH1_Base",
 	"UH60_Base",
+	"MV22",
 	"BAF_Merlin_HC3_D",
 	"Ka60_Base_PMC",
 	"Mi24_Base"
@@ -129,70 +131,9 @@ R3F_LOG_CFG_objets_heliportables = [
 	"M119",
 	"D30_base",
 	"ZU23_base",
-
-	"USBasicAmmunitionBox",
-	"RUBasicAmmunitionBox",
-	"LocalBasicAmmunitionBox",
-	"GuerillaCacheBox",
-	"ReammoBox_EP1"
-];
-
-
-/****** LIFT WITH VEHICLE / HELIPORTER AVEC superVEHICULE ******/
-
-/**
- * List of class names of air vehicles which can lift liftables objects.
- * Liste des noms de classes des véhicules aériens pouvant héliporter des objets héliportables.
- */
-R3F_LOG_CFG_superheliporteurs = [
-	"CH47_base_EP1",
-	"MV22"
-	
-	
-];
-
-/**
- * List of class names of liftables objects.
- * Liste des noms de classes des objets héliportables.
- */
-R3F_LOG_CFG_objets_superheliportables = [
-
-	"HMMWV_Base",
-	"Truck",
-	"GAZ_Vodnik_HMG",
-	"BTR40_MG_base_EP1",
-	"Ship",
-	"Ikarus",
-	"Tractor",
-	"UAZ_Base",
-	"SkodaBase",
-	"hilux1_civil_1_open",
-	"Pickup_PK_base",
-	"Offroad_DSHKM_base",
-	"Lada_base",
-	"VWGolf",
-	"hilux1_civil_3_open_EP1",
-	"LandRover_Base",
-	"S1203_TK_CIV_EP1",
-	"ArmoredSUV_Base_PMC",
-	"SUV_Base_EP1",
-	"Volha_TK_CIV_Base_EP1",
-	"BAF_Jackal2_BASE_D",
-	"M119",
-	"D30_base",
-	"ZU23_base",
 	"LAV25_Base",
 	"StrykerBase_EP1",
 	"BMP3",
-	"BRDM2_Base",
-	"T55_Base",
-	"T72_Base",
-	"T90",
-	"BMP2_Base",
-	"BTR60_TK_EP1",
-	"BTR90_Base",
-	
-	
 
 	"USBasicAmmunitionBox",
 	"RUBasicAmmunitionBox",
@@ -200,6 +141,7 @@ R3F_LOG_CFG_objets_superheliportables = [
 	"GuerillaCacheBox",
 	"ReammoBox_EP1"
 ];
+
 
 /****** LOAD IN VEHICLE / CHARGER DANS LE VEHICULE ******/
 

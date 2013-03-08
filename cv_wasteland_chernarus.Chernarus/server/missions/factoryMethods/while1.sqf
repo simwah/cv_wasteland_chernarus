@@ -5,7 +5,6 @@
 
 
 #include "mainMissionDefines.sqf";
-#include "setup.sqf";
 
 if(!isServer) exitwith {};
 

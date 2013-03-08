@@ -69,7 +69,7 @@ for "_iteration" from 1 to _iterationAmount do {
             
    	_iterationAmount = _iterationAmount - 1;
 	_iterationPercentage = floor (_iteration / _totalDuration * 100);
-				    
+
 	2 cutText [format["Vehicle refuel %1%2 complete", _iterationPercentage, _stringEscapePercent], "PLAIN DOWN", 1];
 	sleep 1;
             
@@ -90,4 +90,3 @@ for "_iteration" from 1 to _iterationAmount do {
 };
 
 mutexScriptInProgress = false;
-

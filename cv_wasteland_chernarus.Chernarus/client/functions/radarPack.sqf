@@ -25,13 +25,13 @@ _totalDuration = 45; // This will NOT be easy >:)
 _actionDuration = _totalDuration;
 _iteration = 0;
 _playerSide = str(playerSide);
-		
+
 player switchMove "AinvPknlMstpSlayWrflDnon_medic"; // Begin the full medic animation...
 
 mutexScriptInProgress = true;
 
 for "_iteration" from 1 to _actionDuration do {
-		
+
 	if(vehicle player != player) exitWith {
 		player globalChat localize "STR_WL_Errors_BeaconInVehicle";
         player action ["eject", vehicle player];
@@ -57,17 +57,17 @@ for "_iteration" from 1 to _actionDuration do {
 	if (animationState player != "AinvPknlMstpSlayWrflDnon_medic") then { // Keep the player locked in medic animation for the full duration of the placement.
 		player switchMove "AinvPknlMstpSlayWrflDnon_medic";
 	};
-			    
+
 	_actionDuration = _actionDuration - 1;
 	_iterationPercentage = floor (_iteration / _totalDuration * 100);
-					    
+
 	2 cutText [format["Re-packing radar station %1%2 complete", _iterationPercentage, _stringEscapePercent], "PLAIN DOWN", 1];
 	sleep 1;
-					    
+
 	if (_iteration >= _totalDuration) exitWith { // Sleep a little extra to show that place has completed.
 		sleep 1;
 		2 cutText ["", "PLAIN DOWN", 1];
-	         
+
         _radarStationAmount = (nearestObjects [getpos player, ["M1130_HQ_unfolded_Base_EP1"],  10]);
                 
 		if(count _radarStationAmount == 0) exitWith { // Check the cheeky fuckers haven't tried to pull a fast one...
@@ -98,4 +98,4 @@ for "_iteration" from 1 to _actionDuration do {
 	};     
 };        		
 
-player SwitchMove "amovpknlmstpslowwrfldnon_amovpercmstpsraswrfldnon"; // Redundant reset of animation state to avoid getting locked in animation. 
+player SwitchMove "amovpknlmstpslowwrfldnon_amovpercmstpsraswrfldnon"; // Redundant reset of animation state to avoid getting locked in animation.

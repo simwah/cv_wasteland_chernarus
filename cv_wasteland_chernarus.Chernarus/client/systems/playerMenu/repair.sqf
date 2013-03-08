@@ -23,7 +23,7 @@ if(vehicle player != player) exitWith { player globalChat localize "STR_WL_Error
 if(isNil{_currVehicle}) exitWith { hint "No vehicle within range"; };
 
 if(((damage _currVehicle) > 0.05) OR !(canMove _currVehicle) OR (_currVehicle isKindOf "Air") OR ((count crew _currVehicle > 0) AND (count(configFile >> "CfgVehicles" >> (_currVehicleType) >> "Turrets") > 0) AND !(canFire _currVehicle))) then {
-	
+
     mutexScriptInProgress = true;  
     _currPlayerState = animationState player;
     player switchMove "AinvPknlMstpSlayWrflDnon_medic";
@@ -57,7 +57,7 @@ if(((damage _currVehicle) > 0.05) OR !(canMove _currVehicle) OR (_currVehicle is
             
      	_iterationAmount = _iterationAmount - 1;
 		_iterationPercentage = floor (_iteration / _totalDuration * 100);
-				    
+
 		2 cutText [format["Vehicle repair %1%2 complete", _iterationPercentage, _stringEscapePercent], "PLAIN DOWN", 1];
 		sleep 1;
             

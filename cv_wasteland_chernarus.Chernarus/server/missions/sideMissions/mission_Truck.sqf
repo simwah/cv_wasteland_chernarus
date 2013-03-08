@@ -1,11 +1,10 @@
 //	@file Version: 1.0
-//	@file Name: mission_Truck.sqf
+//	@file Name: mission_APC.sqf
 //	@file Author: [404] Deadbeat, [404] Costlyy
 //	@file Created: 08/12/2012 15:19
 //	@file Args:
 
 if(!isServer) exitwith {};
-#include "setup.sqf"
 #include "sideMissionDefines.sqf";
 private ["_result","_missionMarkerName_start","_leader","_driver2","_deftruck1","_truckcount","_cargoItem_3","_truckpos","_missionMarkerName_here","_missiontype_here","_driver","_deftruck","_missionMarkerName_end","_missionType","_cargoItem_2","_truck","_startTime","_returnData","_randomPos_start","_randomPos_end","_randomIndex_start","_randomIndex_end","_vehicleClass","_cargoItem_1","_picture","_vehicleName","_hint","_currTime","_playerPresent","_unitsAlive"];
 
@@ -42,7 +41,7 @@ diag_log format["WASTELAND SERVER - side Mission Resumed: %1",_missionType];
 [_missionMarkerName_start,_randomPos_start,_missionType_start] call createClientMarker;
 [_missionMarkerName_end,_randomPos_end,_missionType_end] call createClientMarker;
 
-_cargoItem_1 = ["MtvrRefuel","KamazRefuel","UralRefuel_INS","MtvrReammo","KamazReammo","UralReammo_INS","MtvrRepair","KamazRepair","UralRepair_INS"] call BIS_fnc_selectRandom;
+_cargoItem_1 = ["MtvrRefuel","MtvrReammo","MtvrRepair"] call BIS_fnc_selectRandom;
 _cargoItem_2 = "UAZ_AGS30_RU";
 _cargoItem_3 = "hilux1_civil_3_open";
 //Vehicle Class, Posistion, Fuel, Ammo, Damage, State
@@ -130,7 +129,7 @@ if  ((damage _truck) == 1) then {
 	deleteVehicle _deftruck1;
     {deleteVehicle _x;}forEach units CivgrpS;
     deleteGroup CivgrpS;
-    _hint = parseText format ["<t align='center' color='%4' shadow='2' size='1.75'>Objective Failed</t><br/><t align='center' color='%4'>------------------------------</t><br/><t align='center' color='%5' size='1.25'>%1</t><br/><t align='center'><img size='5' image='%2'/></t><br/><t align='center' color='%5'>Objective failed, someone blow up the objective!</t>", _missionType, _picture, _vehicleName, failMissionColor, subTextColor];
+    _hint = parseText format ["<t align='center' color='%4' shadow='2' size='1.75'>Objective Failed</t><br/><t align='center' color='%4'>------------------------------</t><br/><t align='center' color='%5' size='1.25'>%1</t><br/><t align='center'><img size='5' image='%2'/></t><br/><t align='center' color='%5'>Objective failed, someone blow up the objectif!</t>", _missionType, _picture, _vehicleName, failMissionColor, subTextColor];
 	[nil,nil,rHINT,_hint] call RE;
 	//Reset the mission spawn bool
     diag_log format["WASTELAND SERVER - side Mission Failed: %1",_missionType];

@@ -19,7 +19,7 @@ private ["_liste_objets_depl_heli_remorq_transp", "_liste_vehicules_connus", "_l
 
 #ifdef R3F_LOG_enable
 // Union des tableaux de types d'objets servant dans un isKindOf
-_liste_objets_depl_heli_remorq_transp = R3F_LOG_CFG_objets_deplacables + R3F_LOG_CFG_objets_heliportables +
+_liste_objets_depl_heli_remorq_transp = R3F_LOG_CFG_objets_deplacables + R3F_LOG_CFG_objets_heliportables + R3F_LOG_CFG_objets_superheliportables +
 	R3F_LOG_CFG_objets_remorquables + R3F_LOG_classes_objets_transportables;
 #endif
 
@@ -52,6 +52,11 @@ while {true} do
 				if ({_objet isKindOf _x} count R3F_LOG_CFG_heliporteurs > 0) then
 				{
 					[_objet] spawn R3F_LOG_FNCT_heliporteur_init;
+				};
+				// Si l'objet est un véhicule superhéliporteur
+				if ({_objet isKindOf _x} count R3F_LOG_CFG_superheliporteurs > 0) then
+				{
+					[_objet] spawn R3F_LOG_FNCT_superheliporteur_init;
 				};
 
 				// Si l'objet est un véhicule transporteurs whatever

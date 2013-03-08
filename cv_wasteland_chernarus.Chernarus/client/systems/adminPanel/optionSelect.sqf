@@ -68,33 +68,33 @@ if ((_uid in moderators) OR (_uid in administrators) OR (_uid in serverAdministr
 			switch (lbCurSel _serverAdminSelect) do
 			{
 			    case 0: //Player Menu
-				{
-	                closeDialog 0;
-					execVM "client\systems\adminPanel\playerMenu.sqf";
-				};
-				case 1: //Full Vehicle Management
-				{
-	                closeDialog 0;
-					execVM "client\systems\adminPanel\vehicleManagement.sqf";
-				};
+                            {
+                                closeDialog 0;
+				execVM "client\systems\adminPanel\playerMenu.sqf";
+                            };
+                            case 1: //Full Vehicle Management
+                            {
+                                closeDialog 0;
+                                execVM "client\systems\adminPanel\vehicleManagement.sqf";
+                            };
 			    case 2: //Tags
 			    {
-					execVM "client\systems\adminPanel\playerTags.sqf";
+				execVM "client\systems\adminPanel\playerTags.sqf";
 			    };
 			    case 3: //Teleport
 			    {
-	                closeDialog 0;    
-	                hint "Click on map to teleport";
-	                onMapSingleClick "vehicle player setPos _pos; onMapSingleClick '';true;";
+                                closeDialog 0;    
+                                hint "Click on map to teleport";
+                                onMapSingleClick "vehicle player setPos _pos; onMapSingleClick '';true;";
 			    };
-	            case 4: //Money
+                            case 4: //Money
 			    {      
 					player setVariable["cmoney", (player getVariable "cmoney")+1000,true];
 			    };
-	            case 5: //Debug Menu
+                            case 5: //Debug Menu
 			    {   
-	            	closeDialog 0;   
-	                execVM "client\systems\adminPanel\loadDebugMenu.sqf";
+                                closeDialog 0;   
+                                execVM "client\systems\adminPanel\loadDebugMenu.sqf";
 			    };
                             case 6: // Console
                             {
@@ -141,8 +141,14 @@ if ((_uid in moderators) OR (_uid in administrators) OR (_uid in serverAdministr
 					hint format["Server FPS: %1",serverFPS];
 			    };
 	            case 5: //Test Function
-			    {
-					
+			    {      
+					if(group player == grpNull) then
+	                {
+	                    hint "not in a group";
+	                } else {
+	                    _unitCount = count units group player;
+	                	hint format["In a group of %1 players", _unitCount];    
+	                };
 			    };
 			};		
 	    };
