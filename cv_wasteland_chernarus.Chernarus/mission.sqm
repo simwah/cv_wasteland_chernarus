@@ -56,8 +56,8 @@ class Mission
 	randomSeed=10079095;
 	class Intel
 	{
-		briefingName="Wasteland - Australia - Chernarus [v14 beta]";
-		briefingDescription="Wasteland - Australia - Chernarus [v14 beta] - modifications by Clan Valhalla";
+		briefingName="Wasteland - Australia - Chernarus [v14]";
+		briefingDescription="Wasteland - Australia - Chernarus [v14] - modifications by Clan Valhalla";
 		resistanceWest=0;
 		startWeather=0.25;
 		forecastWeather=0.25;
