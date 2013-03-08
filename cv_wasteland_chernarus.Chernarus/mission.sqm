@@ -3328,7 +3328,7 @@ class Mission
 		};
 		class Item47
 		{
-			position[]={13988.501,0.33574498,1348.894};
+			position[]={13988.538,0.33474827,1348.9664};
 			special="NONE";
 			id=178;
 			side="EMPTY";
