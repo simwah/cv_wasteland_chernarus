@@ -13,7 +13,6 @@
 #define respawn_PlayersInTown_Text4 3412
 
 
-
 	class RespawnSelectionDialog {
 		idd = respawn_dialog;
 		movingEnable = false;
@@ -62,7 +61,7 @@
 			text = "#(argb,8,8,3)color(1,1,1,1)";
 
 			x = 0.328 * safezoneW + safezoneX;
-			y = 0.410 * safezoneH + safezoneY;
+			y = 0.360 * safezoneH + safezoneY;
 			w = 0.343 * safezoneW;
 			h = 0.0025 * safezoneH;
 		};
@@ -73,7 +72,7 @@
 			text = "#(argb,8,8,3)color(1,1,1,1)";
 
 			x = 0.328 * safezoneW + safezoneX;
-			y = 0.476 * safezoneH + safezoneY;
+			y = 0.426 * safezoneH + safezoneY;
 			w = 0.343 * safezoneW;
 			h = 0.0025 * safezoneH;
 		};
@@ -109,7 +108,7 @@
 			text = "";
 
 			x = 0.443 * safezoneW + safezoneX;
-			y = 0.493 * safezoneH + safezoneY;
+			y = 0.443 * safezoneH + safezoneY;
 			w = 0.230 * safezoneW;
 			h = 0.025 * safezoneH;
 		};
@@ -120,7 +119,7 @@
 			text = "";
 
 			x = 0.443 * safezoneW + safezoneX;
-			y = 0.543 * safezoneH + safezoneY;
+			y = 0.493 * safezoneH + safezoneY;
 			w = 0.230 * safezoneW;
 			h = 0.025 * safezoneH;
 		};
@@ -131,7 +130,7 @@
 			text = "";
 
 			x = 0.443 * safezoneW + safezoneX;
-			y = 0.593 * safezoneH + safezoneY;
+			y = 0.543 * safezoneH + safezoneY;
 			w = 0.230 * safezoneW;
 			h = 0.025 * safezoneH;
 		};
@@ -142,7 +141,7 @@
 			text = "";
 
 			x = 0.443 * safezoneW + safezoneX;
-			y = 0.643 * safezoneH + safezoneY;
+			y = 0.593 * safezoneH + safezoneY;
 			w = 0.230 * safezoneW;
 			h = 0.025 * safezoneH;
 		};
@@ -153,7 +152,7 @@
 			text = "";
 
 			x = 0.443 * safezoneW + safezoneX;
-			y = 0.693 * safezoneH + safezoneY;
+			y = 0.643 * safezoneH + safezoneY;
 			w = 0.230 * safezoneW;
 			h = 0.025 * safezoneH;
 		};
@@ -169,54 +168,7 @@
 			w = 0.078 * safezoneW;
 			h = 0.033 * safezoneH;
 		};
-			
-		class NWSpawnButton: w_RscButton
-		{
-			idc = -1;
-			onButtonClick = "[0] execVM 'client\functions\spawnActionNW.sqf'";
-			text = "North West";
-
-			x = 0.306 * safezoneW + safezoneX;
-			y = 0.360 * safezoneH + safezoneY;
-			w = 0.078 * safezoneW;
-			h = 0.033 * safezoneH;
-		};		
-		
-		class NESpawnButton: w_RscButton
-		{
-			idc = -1;
-			onButtonClick = "[0] execVM 'client\functions\spawnActionNE.sqf'";
-			text = "North East";
-
-			x = 0.406 * safezoneW + safezoneX;
-			y = 0.360 * safezoneH + safezoneY;
-			w = 0.078 * safezoneW;
-			h = 0.033 * safezoneH;
-		};		
-		
-		class SWSpawnButton: w_RscButton
-		{
-			idc = -1;
-			onButtonClick = "[0] execVM 'client\functions\spawnActionSW.sqf'";
-			text = "South West";
-
-			x = 0.515 * safezoneW + safezoneX;
-			y = 0.360 * safezoneH + safezoneY;
-			w = 0.078 * safezoneW;
-			h = 0.033 * safezoneH;
-		};		
-		
-		class SESpawnButton: w_RscButton
-		{
-			idc = -1;
-			onButtonClick = "[0] execVM 'client\functions\spawnActionSE.sqf'";
-			text = "South east";
-
-			x = 0.615 * safezoneW + safezoneX;
-			y = 0.360 * safezoneH + safezoneY;
-			w = 0.078 * safezoneW;
-			h = 0.033 * safezoneH;
-		};
+	
 		class LoadTownsButton: w_RscButton
 		{
 			idc = -1;
@@ -224,7 +176,7 @@
 			text = "Towns";
 
 			x = 0.406 * safezoneW + safezoneX;
-			y = 0.434 * safezoneH + safezoneY;
+			y = 0.384 * safezoneH + safezoneY;
 			w = 0.078 * safezoneW;
 			h = 0.033 * safezoneH;
 		};
@@ -236,7 +188,7 @@
 			text = "Beacons";
 
 			x = 0.515 * safezoneW + safezoneX;
-			y = 0.434 * safezoneH + safezoneY;
+			y = 0.384 * safezoneH + safezoneY;
 			w = 0.078 * safezoneW;
 			h = 0.033 * safezoneH;
 		};
@@ -248,7 +200,7 @@
 			text = "";
 
 			x = 0.343 * safezoneW + safezoneX;
-			y = 0.493 * safezoneH + safezoneY;
+			y = 0.443 * safezoneH + safezoneY;
 			w = 0.078 * safezoneW;
 			h = 0.033 * safezoneH;
 		};
@@ -260,7 +212,7 @@
 			text = "";
 
 			x = 0.343 * safezoneW + safezoneX;
-			y = 0.543 * safezoneH + safezoneY;
+			y = 0.493 * safezoneH + safezoneY;
 			w = 0.078 * safezoneW;
 			h = 0.033 * safezoneH;
 		};
@@ -272,7 +224,7 @@
 			text = "";
 
 			x = 0.343 * safezoneW + safezoneX;
-			y = 0.593 * safezoneH + safezoneY;
+			y = 0.543 * safezoneH + safezoneY;
 			w = 0.078 * safezoneW;
 			h = 0.033 * safezoneH;
 		};
@@ -284,7 +236,7 @@
 			text = "";
 
 			x = 0.343 * safezoneW + safezoneX;
-			y = 0.643 * safezoneH + safezoneY;
+			y = 0.593 * safezoneH + safezoneY;
 			w = 0.078 * safezoneW;
 			h = 0.033 * safezoneH;
 		};
@@ -296,7 +248,7 @@
 			text = "";
 
 			x = 0.343 * safezoneW + safezoneX;
-			y = 0.693 * safezoneH + safezoneY;
+			y = 0.643 * safezoneH + safezoneY;
 			w = 0.078 * safezoneW;
 			h = 0.033 * safezoneH;
 		};
