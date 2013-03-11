@@ -90,6 +90,7 @@ civilianVehicles = [
     "Lada_base",
     "Lada1",
     "LadaLM",
+    "GAZ_Vodnik",
     "Lada2"];
 
 //Military Vehicle List - Random Spawns
@@ -98,6 +99,7 @@ militaryVehicles = [
     "SUV_PMC",
     "MTVR",
     "BAF_Offroad_W",
+    "GAZ_Vodnik",
     "UAZ_Unarmed_UN_EP1",
     "HMMWV"];
 
@@ -108,10 +110,10 @@ armedMilitaryVehicles = [
     "UAZ_MG_TK_EP1",
     "LandRover_MG_TK_INS_EP1",
     "HMMWV_M2",
+    "GAZ_Vodnik",
     "HMMWV_Armored",
     "HMMWV_MK19",
-    "HMMWV_TOW",
-    "GAZ_Vodnik"];
+    "HMMWV_TOW"];
 
 //Item Config
 pickupList = [
