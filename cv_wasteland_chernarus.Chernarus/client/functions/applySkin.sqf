@@ -113,6 +113,7 @@ playerSkins = [
 ["Mik3y", "64534214", "GUE_Soldier_Sniper", "USMC_SoldierS_Sniper", "RU_Soldier_Sniper"],
 ["Xeonau", "64485126", "", "US_Soldier_Sniper_NV_EP1", ""],
 ["Dunkinator", "79609670", "GUE_Soldier_AT", "", ""]
+["Kila01", "56660230", "Saboteur GUE_Soldier_sab", "", ""]
 ];
 
 _uid = getPlayerUID _player;
