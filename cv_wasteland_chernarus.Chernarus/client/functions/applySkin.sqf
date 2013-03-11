@@ -112,8 +112,8 @@ playerSkins = [
 ["Old Man Peters", "41610630", "GUE_Soldier_Scout", "", ""],
 ["Mik3y", "64534214", "GUE_Soldier_Sniper", "USMC_SoldierS_Sniper", "RU_Soldier_Sniper"],
 ["Xeonau", "64485126", "", "US_Soldier_Sniper_NV_EP1", ""],
-["Dunkinator", "79609670", "GUE_Soldier_AT", "", ""]
-["Kila01", "56660230", "Saboteur GUE_Soldier_sab", "", ""]
+["Dunkinator", "79609670", "GUE_Soldier_AT", "", ""],
+["Kila01", "56660230", "Saboteur GUE_Soldier_sab", "", ""],
 ["EvilCbass117", "32516294", "GUE_Soldier_Scout", "", ""],
 ["TheCads", "48480006", "Saboteur GUE_Soldier_sab", "", ""],
 ["Bigdog", "73058886", "Soldier_Sniper_KSVK_PMC", "", ""],
