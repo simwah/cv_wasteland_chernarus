@@ -1,4 +1,3 @@
-
 //	@file Version: 1.0
 //	@file Name: cleanBeaconArrays.sqf
 //	@file Author: [404] Costlyy
@@ -26,5 +25,10 @@ _currBeaconOwnerUID = _this select 0;
     };
 }forEach pvar_beaconListRed;
 
-
-
+{
+    if(str(_currBeaconOwnerUID) == str(_x select 3)) then {
+    	pvar_beaconListInd set [_forEachIndex, "REMOVETHISCRAP"];
+        pvar_beaconListInd = pvar_beaconListInd - ["REMOVETHISCRAP"];
+        publicVariable "pvar_beaconListInd";
+    };
+}forEach pvar_beaconListInd;
