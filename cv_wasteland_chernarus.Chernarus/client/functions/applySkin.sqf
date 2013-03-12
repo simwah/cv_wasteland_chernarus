@@ -74,8 +74,6 @@ playerSkins = [
 ["chefbrah", "6458246", "", "", "GUE_Soldier_Sniper"],
 ["AilfawkaD", "90007622", "", "", "RU_Soldier_SniperH"],
 ["Pantzz", "38374534", "", "", "RU_Soldier_SniperH"],
-["TheCads", "48480006", "", "", ""],
-["DaEMON", "2703622", "", "", ""],
 ["Dr0pBear", "65606470", "", "", "RU_Soldier_Sniper"],
 ["Ernie Dingo", "32516294", "", "", "RU_Soldier_Sniper"],
 ["Eviscrerator", "92990534", "", "", "RUS_Soldier_Sab"],
