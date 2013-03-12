@@ -76,6 +76,3 @@ switch _key do
 };
 
 _handled;
-
-
-

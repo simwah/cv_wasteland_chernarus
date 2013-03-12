@@ -2819,7 +2819,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=69;
+		items=75;
 		class Item0
 		{
 			position[]={8343.0654,26.779518,3340.9795};
@@ -3107,7 +3107,7 @@ class Mission
 			side="EMPTY";
 			vehicle="RHIB2Turret";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item26
 		{
@@ -3116,7 +3116,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Zodiac";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item27
 		{
@@ -3125,7 +3125,7 @@ class Mission
 			side="EMPTY";
 			vehicle="PBX";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item28
 		{
@@ -3134,7 +3134,7 @@ class Mission
 			side="EMPTY";
 			vehicle="RHIB";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item29
 		{
@@ -3143,7 +3143,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Zodiac";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item30
 		{
@@ -3152,7 +3152,7 @@ class Mission
 			side="EMPTY";
 			vehicle="PBX";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item31
 		{
@@ -3161,7 +3161,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Zodiac";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item32
 		{
@@ -3170,7 +3170,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Fishing_Boat";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item33
 		{
@@ -3179,7 +3179,7 @@ class Mission
 			side="EMPTY";
 			vehicle="PBX";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item34
 		{
@@ -3188,7 +3188,7 @@ class Mission
 			side="EMPTY";
 			vehicle="RHIB2Turret";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item35
 		{
@@ -3197,7 +3197,7 @@ class Mission
 			side="EMPTY";
 			vehicle="PBX";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item36
 		{
@@ -3605,10 +3605,64 @@ class Mission
 			skill=0.60000002;
 			init="this addAction [""Dock Boat"",""scripts\launch1.sqf"",[],1,false,true,"""",""_this == driver _target""];this addAction [""Launch Boat"",""scripts\launch.sqf"",[],1,false,true,"""",""_this == driver _target""];this setVariable[""original"",1,true];";
 		};
+		class Item69
+		{
+			position[]={13103.494,0.30370724,8230.293};
+			id=206;
+			side="EMPTY";
+			vehicle="RHIB2Turret";
+			skill=0.60000002;
+			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+		};
+		class Item70
+		{
+			position[]={13042.529,0.23215505,8483.2979};
+			id=207;
+			side="EMPTY";
+			vehicle="PBX";
+			skill=0.60000002;
+			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+		};
+		class Item71
+		{
+			position[]={13587.93,0.17918742,4292.022};
+			id=208;
+			side="EMPTY";
+			vehicle="PBX";
+			skill=0.60000002;
+			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+		};
+		class Item72
+		{
+			position[]={11707.822,0.23610303,3132.3264};
+			id=209;
+			side="EMPTY";
+			vehicle="PBX";
+			skill=0.60000002;
+			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+		};
+		class Item73
+		{
+			position[]={8361.084,0.19222473,2343.6416};
+			id=210;
+			side="EMPTY";
+			vehicle="PBX";
+			skill=0.60000002;
+			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+		};
+		class Item74
+		{
+			position[]={10988.988,0.17596236,2667.1885};
+			id=211;
+			side="EMPTY";
+			vehicle="PBX";
+			skill=0.60000002;
+			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+		};
 	};
 	class Markers
 	{
-		items=915;
+		items=930;
 		class Item0
 		{
 			position[]={10472.047,6,2300.7461};
@@ -5147,7 +5201,7 @@ class Mission
 		};
 		class Item256
 		{
-			position[]={12972.115,6.2288709,10128.278};
+			position[]={13526.074,0.34080231,9513.4795};
 			name="Spawn_239";
 			type="Empty";
 		};
@@ -9248,10 +9302,100 @@ class Mission
 			type="Empty";
 			colorName="ColorGreen";
 		};
+		class Item915
+		{
+			position[]={13064.02,5.3257189,8203.8174};
+			name="dock15_1";
+			type="Empty";
+		};
+		class Item916
+		{
+			position[]={13224.777,0.38967192,8407.6025};
+			name="dock16_1";
+			type="Empty";
+		};
+		class Item917
+		{
+			position[]={13003.453,0.25672197,8579.1729};
+			name="Spawn_236_1";
+			type="Empty";
+		};
+		class Item918
+		{
+			position[]={13632.118,0.27333981,4327.1675};
+			name="dock13_1";
+			type="Empty";
+		};
+		class Item919
+		{
+			position[]={13431.191,5.5634289,4270.0146};
+			name="Spawn_139_1";
+			type="Empty";
+		};
+		class Item920
+		{
+			position[]={13490.098,5.2629771,4369.4756};
+			name="Spawn_145_1";
+			type="Empty";
+		};
+		class Item921
+		{
+			position[]={11752.011,3.0180643,3167.4719};
+			name="dock13_2";
+			type="Empty";
+		};
+		class Item922
+		{
+			position[]={11551.084,2.2623265,3110.3191};
+			name="Spawn_139_2";
+			type="Empty";
+		};
+		class Item923
+		{
+			position[]={11609.99,2.0822217,3209.78};
+			name="Spawn_145_2";
+			type="Empty";
+		};
+		class Item924
+		{
+			position[]={8405.2715,9.7763577,2378.7871};
+			name="dock13_3";
+			type="Empty";
+		};
+		class Item925
+		{
+			position[]={8204.3457,0.14939712,2321.6343};
+			name="Spawn_139_3";
+			type="Empty";
+		};
+		class Item926
+		{
+			position[]={8263.252,5.7297144,2421.0952};
+			name="Spawn_145_3";
+			type="Empty";
+		};
+		class Item927
+		{
+			position[]={11033.177,6,2702.334};
+			name="dock13_4";
+			type="Empty";
+		};
+		class Item928
+		{
+			position[]={10832.25,6,2645.1812};
+			name="Spawn_139_4";
+			type="Empty";
+		};
+		class Item929
+		{
+			position[]={10891.156,6,2744.6421};
+			name="Spawn_145_4";
+			type="Empty";
+		};
 	};
 	class Sensors
 	{
-		items=9;
+		items=10;
 		class Item0
 		{
 			position[]={14034.293,0.17866491,1344.1284};
@@ -9395,6 +9539,22 @@ class Mission
 			age="UNKNOWN";
 			expCond="!alive r11 and !alive r12 and !alive r13 and !alive r14 and !alive r15 and !alive r16";
 			expActiv="Hint ""LHD 1 Defences neutralised""";
+			class Effects
+			{
+			};
+		};
+		class Item9
+		{
+			position[]={13996.166,0.13429248,1371.8794};
+			a=200;
+			angle=0.200536;
+			rectangular=1;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="vehicle player != player and local player;";
+			expActiv="myvec = vehicle player; temp = [myvec] execVM ""AttachToTractor\AttachToTractor.sqf"";";
 			class Effects
 			{
 			};
