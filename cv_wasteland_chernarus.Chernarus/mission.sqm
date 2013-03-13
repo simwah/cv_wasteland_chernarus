@@ -3276,7 +3276,7 @@ class Mission
 			lock="UNLOCKED";
 			skill=0.60000002;
 			text="trck2";
-			init="this setPosASL [position this select 0, position this select 1, 15.9];this setVariable[""original"",1,true];";
+			init="this setPosASL [position this select 0, position this select 1, 15.9];this setVariable[""original"",1,true];veh = [this, 300, 0, 10, TRUE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item43
 		{
@@ -3437,7 +3437,7 @@ class Mission
 			lock="UNLOCKED";
 			skill=0.60000002;
 			text="MH601";
-			init="this setPosASL [position this select 0, position this select 1, 15.9];this setVariable[""original"",1,true];veh = [this, 1800, 0, 2, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="this setPosASL [position this select 0, position this select 1, 15.9];this setVariable[""original"",1,true];veh = [this, 1800, 0, 4, TRUE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item56
 		{
