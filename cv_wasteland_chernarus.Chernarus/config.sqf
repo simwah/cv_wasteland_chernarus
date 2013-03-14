@@ -22,8 +22,6 @@ weaponsArray = [
     	["M16A4 ACG","m16a4_acg",150,75],
     	["M4A1","M4A1",50,15],
     	["M4A1 CCO","M4A1_Aim",75,25],
-                ["M4A1_HWS_GL_SD_Camo",150,75],
-                ["M4A1_RCO_GL",200,60],
     	["M1014","M1014",50,15],
     	["Saiga 12K","Saiga12K",50,15],
     	["M249","M249_EP1",200,60],
@@ -87,10 +85,6 @@ ammoArray = [
     	["100Rnd MG36 C Mag","100Rnd_556x45_BetaCMag",40],
     	["CZ550 Hunting Ammo","5x_22_LR_17_HMR",35],
     	["20Rnd SCAR","20Rnd_762x51_B_SCAR",50]
-                ["1Rnd_SmokeRed_M203",10],
-                ["1Rnd_SmokeGreen_M203",10],
-                ["1Rnd_Smoke_M203",10],
-                ["1Rnd_SmokeYellow_M203",10]
 ];
 
 //Gun Store Equipment List
@@ -98,12 +92,7 @@ ammoArray = [
 accessoriesArray = [
 	["Range Finder","Binocular_Vector",500],
 	["NV Goggles","NVGoggles",100],
-    	["GPS","ItemGPS",100],
-                ["HandGrenade_West",20],
-                ["PipeBomb",100],
-                ["SmokeShell",10],
-                ["SmokeShellGreen",10],
-                ["SmokeShellRed",10]
+    	["GPS","ItemGPS",100]
 ];
 
 //General Store Item List
