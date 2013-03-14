@@ -3107,7 +3107,7 @@ class Mission
 			side="EMPTY";
 			vehicle="RHIB2Turret";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 600, 0, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item26
 		{
@@ -3116,7 +3116,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Zodiac";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 600, 0, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item27
 		{
@@ -3125,7 +3125,7 @@ class Mission
 			side="EMPTY";
 			vehicle="PBX";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 600, 0, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item28
 		{
@@ -3134,7 +3134,7 @@ class Mission
 			side="EMPTY";
 			vehicle="RHIB";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 600, 0, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item29
 		{
@@ -3143,7 +3143,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Zodiac";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 600, 0, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item30
 		{
@@ -3152,7 +3152,7 @@ class Mission
 			side="EMPTY";
 			vehicle="PBX";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 600, 0, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item31
 		{
@@ -3161,7 +3161,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Zodiac";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 600, 0, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item32
 		{
@@ -3170,7 +3170,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Fishing_Boat";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 600, 0, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item33
 		{
@@ -3179,7 +3179,7 @@ class Mission
 			side="EMPTY";
 			vehicle="PBX";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 600, 0, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item34
 		{
@@ -3188,7 +3188,7 @@ class Mission
 			side="EMPTY";
 			vehicle="RHIB2Turret";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 600, 0, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item35
 		{
@@ -3197,7 +3197,7 @@ class Mission
 			side="EMPTY";
 			vehicle="PBX";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 600, 0, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item36
 		{
@@ -3207,7 +3207,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Mi17_medevac_CDF";
 			skill=0.60000002;
-			init="veh = [this, 1800, 0, 2, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="veh = [this, 1800, 0, 2, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item37
 		{
@@ -3217,17 +3217,17 @@ class Mission
 			side="EMPTY";
 			vehicle="Mi17_medevac_RU";
 			skill=0.60000002;
-			init="veh = [this, 1800, 0, 2, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="veh = [this, 1800, 0, 2, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item38
 		{
 			position[]={12044.221,158.8,12675.707};
-			azimut=-333.73245;
+			azimut=-333.73199;
 			id=168;
 			side="EMPTY";
 			vehicle="UH60M_MEV_EP1";
 			skill=0.60000002;
-			init="veh = [this, 1800, 0, 2, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="veh = [this, 1800, 0, 2, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item39
 		{
@@ -3437,7 +3437,7 @@ class Mission
 			lock="UNLOCKED";
 			skill=0.60000002;
 			text="MH601";
-			init="this setPosASL [position this select 0, position this select 1, 15.9];this setVariable[""original"",1,true];veh = [this, 1800, 0, 4, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="this setPosASL [position this select 0, position this select 1, 15.9];this setVariable[""original"",1,true];veh = [this, 1800, 0, 4, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item56
 		{
@@ -3612,7 +3612,7 @@ class Mission
 			side="EMPTY";
 			vehicle="RHIB2Turret";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 600, 0, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item70
 		{
@@ -3621,7 +3621,7 @@ class Mission
 			side="EMPTY";
 			vehicle="PBX";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 600, 0, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item71
 		{
@@ -3630,7 +3630,7 @@ class Mission
 			side="EMPTY";
 			vehicle="PBX";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 600, 0, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item72
 		{
@@ -3639,7 +3639,7 @@ class Mission
 			side="EMPTY";
 			vehicle="PBX";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 600, 0, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item73
 		{
@@ -3648,7 +3648,7 @@ class Mission
 			side="EMPTY";
 			vehicle="PBX";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 600, 0, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 		class Item74
 		{
@@ -3657,7 +3657,7 @@ class Mission
 			side="EMPTY";
 			vehicle="PBX";
 			skill=0.60000002;
-			init="this setVariable[""original"",1,true];veh = [this, 0, 300, 0, TRUE, FALSE] execVM ""vehicle2.sqf"";";
+			init="this setVariable[""original"",1,true];veh = [this, 0, 600, 0, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 	};
 	class Markers
