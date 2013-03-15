@@ -22,7 +22,9 @@ weaponsArray = [
     	["M16A4 ACG","m16a4_acg",150,75],
     	["M4A1","M4A1",50,15],
     	["M4A1 CCO","M4A1_Aim",75,25],
-    	["M1014","M1014",50,15],
+    	["M4A1 SD Holo GL","M4A1_HWS_GL_SD_Camo",150,75],
+                ["M4A1 RCO GL","M4A1_RCO_GL",150,75],
+                ["M1014","M1014",50,15],
     	["Saiga 12K","Saiga12K",50,15],
     	["M249","M249_EP1",200,60],
     	["Mk48 Mod","Mk_48",250,75],
@@ -54,7 +56,7 @@ weaponsArray = [
     	["SCAR H CCO","SCAR_H_CQC_CCO",400,120],
     	["GOLD AKS","AKS_GOLD",500,150],
     	["Hunting Rifle","huntingrifle",500,150],
-    	["SCAR L CQC","SCAR_L_CQC",300,90]
+    	["SCAR L CQC","SCAR_L_CQC",300,90]               
 ];
 
 //Gun Store Ammo List
@@ -84,7 +86,17 @@ ammoArray = [
 	["20 Rnd M14 DMR","20Rnd_762x51_DMR",75],
     	["100Rnd MG36 C Mag","100Rnd_556x45_BetaCMag",40],
     	["CZ550 Hunting Ammo","5x_22_LR_17_HMR",35],
-    	["20Rnd SCAR","20Rnd_762x51_B_SCAR",50]
+    	["20Rnd SCAR","20Rnd_762x51_B_SCAR",50],
+                ["M203 Smoke","1Rnd_Smoke_M203",10],
+                ["M203 Red Smoke","1Rnd_SmokeRed_M203",10],
+	["M203 Green Smoke","1Rnd_SmokeGreen_M203",10],
+                ["M203 Yellow Smoke","1Rnd_SmokeYellow_M203",10],
+                ["Grenade","HandGrenade_West",20],
+	["Satchel Charge","PipeBomb",125],
+                ["Smoke Grenade","SmokeShell",10],
+                ["Smoke Grenade Red","SmokeShellRed",10], 
+                ["Smoke Grenade Green","SmokeShellGreen",10],
+                ["Smoke Grenade Blue","SmokeShellBlue",10]
 ];
 
 //Gun Store Equipment List
