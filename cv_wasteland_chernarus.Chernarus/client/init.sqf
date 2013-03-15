@@ -58,6 +58,7 @@ waituntil {!(IsNull (findDisplay 46))};
 
 //client Executes
 [] execVM "client\functions\initSurvival.sqf";
+_fast_roping = [] execVM "=BTC=_fast_roping\=BTC=_fast_roping_init.sqf";
 [] execVM "client\systems\hud\playerHud.sqf";
 [] execVM "client\functions\createTownMarkers.sqf";
 [] execVM "client\functions\createGunStoreMarkers.sqf";
