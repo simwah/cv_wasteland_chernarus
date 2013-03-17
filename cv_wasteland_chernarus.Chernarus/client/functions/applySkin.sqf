@@ -95,7 +95,7 @@ playerSkins = [
 ["EvilCbass117", "32516294", "GUE_Soldier_Scout", "", ""],
 ["PabloElKillo", "15255494", "GUE_Soldier_Sniper", "", ""],
 ["Venerable", "13989382", "GUE_Soldier_Sniper", "FR_GL", "RUS_Soldier1"],
-["[BLS] Unit-02.nz", "5065670", "GUE_Soldier_Sniper", "", ""],
+["[BLS] Unit-02.nz", "5065670", "Soldier_Engineer_PMC", "", ""],
 ["^cv^stig-22", "88556230", "GUE_Soldier_CO", "FR_TL", ""],
 ["ColBangBang", "15257094", "GUE_Soldier_Sniper", "", ""],
 ["rhys jones", "6248704", "GUE_Soldier_1", "", ""],
