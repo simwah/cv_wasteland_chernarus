@@ -116,6 +116,7 @@ playerSkins = [
 ["Bigdog", "73058886", "Soldier_Sniper_KSVK_PMC", "", ""],
 ["Dorian", "79491014", "GUE_Soldier_sab", "", ""],
 ["Dunkinator", "79609670", "GUE_Soldier_sab", "", ""],
+["BellaRose", "99372870", "GUE_Soldier_Medic", "", ""],
 ["AGeNT", "23477190", "TK_Soldier_Pilot_EP1", "", "TK_Soldier_Pilot_EP1"]
 ];
 
