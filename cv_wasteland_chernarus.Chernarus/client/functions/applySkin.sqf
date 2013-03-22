@@ -118,6 +118,7 @@ playerSkins = [
 ["Dunkinator", "79609670", "GUE_Soldier_sab", "", ""],
 ["BellaRose", "99372870", "GUE_Soldier_Medic", "", ""],
 ["MuadDib", "1897350", "GUE_Soldier_Scout", "", ""],
+["Xenonau", "64485126", "US_Soldier_Sniper_NV_EP1", "", ""],
 ["AGeNT", "23477190", "TK_Soldier_Pilot_EP1", "", "TK_Soldier_Pilot_EP1"]
 ];
 
