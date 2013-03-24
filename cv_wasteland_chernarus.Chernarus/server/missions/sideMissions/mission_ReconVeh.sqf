@@ -41,7 +41,7 @@ diag_log format["WASTELAND SERVER - side Mission Resumed: %1",_missionType];
 [_missionMarkerName_start,_randomPos_start,_missionType_start] call createClientMarker;
 [_missionMarkerName_end,_randomPos_end,_missionType_end] call createClientMarker;
 
-_cargoItem_1 = ["BAF_Jackal2_L2A1_w","ArmoredSUV_PMC","BTR40_MG_TK_GUE_EP1","BAF_Jackal2_L2A1_D"] call BIS_fnc_selectRandom;
+_cargoItem_1 = ["BAF_Jackal2_L2A1_w","ArmoredSUV_PMC","BAF_Jackal2_GMG_D","BAF_Jackal2_L2A1_D","LandRover_Special_CZ_EP1"] call BIS_fnc_selectRandom;
 _cargoItem_2 = "UAZ_AGS30_RU";
 _cargoItem_3 = "hilux1_civil_3_open";
 //Vehicle Class, Posistion, Fuel, Ammo, Damage, State

@@ -191,9 +191,15 @@ R3F_LOG_CFG_objets_superheliportables = [
 	"BMP2_Base",
 	"BTR60_TK_EP1",
 	"BTR90_Base",
-	
-	
+	"T34_Base",
+	"M1A1_Base",
+	"M113_Base",
+	"M2M2A2_EP1",
+	"M2A3_EP1",
+	"M6_EP1",
 
+	
+	
 	"USBasicAmmunitionBox",
 	"RUBasicAmmunitionBox",
 	"LocalBasicAmmunitionBox",
