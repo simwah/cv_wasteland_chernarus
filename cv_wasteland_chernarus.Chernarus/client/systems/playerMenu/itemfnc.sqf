@@ -122,7 +122,7 @@ switch(_switch) do
 				_playerPos = getPosATL player;
 				player setVariable["camonet",(player getVariable "camonet")-1,true];
 				_dir = getdir player;
-				_deployedCamoNet = "Land_CamoNet_NATO" createVehicle (position player); _deployedCamoNet setPos _playerPos;
+				_deployedCamoNet = "Land_CamoNetB_NATO" createVehicle (position player); _deployedCamoNet setPos _playerPos;
 				_deployedCamoNet setDir _dir;
 				hint "Camo Net deployed";
 			};            

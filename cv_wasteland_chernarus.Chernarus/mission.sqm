@@ -2821,7 +2821,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=75;
+		items=72;
 		class Item0
 		{
 			position[]={8343.0654,26.779518,3340.9795};
@@ -3611,33 +3611,9 @@ class Mission
 		};
 		class Item71
 		{
-			position[]={4341.4414,339,10576.521};
-			id=208;
-			side="EMPTY";
-			vehicle="BAF_BasicWeapons";
-			skill=0.60000002;
-		};
-		class Item72
-		{
-			position[]={4345.1665,339,10564.675};
-			id=209;
-			side="EMPTY";
-			vehicle="BAF_BasicWeapons";
-			skill=0.60000002;
-		};
-		class Item73
-		{
-			position[]={4353.7114,339,10573.231};
-			id=210;
-			side="EMPTY";
-			vehicle="BAF_BasicWeapons";
-			skill=0.60000002;
-		};
-		class Item74
-		{
 			position[]={13175.97,0.12679672,248.36908};
 			azimut=626.12238;
-			id=211;
+			id=208;
 			side="EMPTY";
 			vehicle="Ka137_MG_PMC";
 			lock="UNLOCKED";

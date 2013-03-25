@@ -153,7 +153,7 @@ objectList = [
     "Land_fort_bagfence_corner",
     "Land_BagFenceLong",
     "Land_BagFenceLong",
-    "Land_fort_artillery_nest_EP1",
+    "Land_ConcreteBlock",
     //"Land_fortified_nest_small_EP1",
     //"Land_Misc_deerstand",
     "Land_fort_rampart",
@@ -162,13 +162,14 @@ objectList = [
     "Land_HBarrier_large",
     //"Land_Misc_Scaffolding",
     //"Land_Misc_Scaffolding",
-    "Land_fort_artillery_nest_EP1",
+    "Land_ConcreteBlock",
     "Land_fort_rampart_EP1",
     "Land_Fort_Watchtower_EP1",
     "Land_Fort_Watchtower",
     "Land_fortified_nest_big",
     "Land_fortified_nest_small_EP1",
-    "RampConcrete",
+    "Land_ConcreteBlock",
+	"RampConcrete",
     "WarfareBDepot",
     "WarfareBCamp",
     "Hedgehog",
@@ -192,7 +193,9 @@ objectList = [
 //Object List - Random Spawns.
 staticWeaponsList = [
     "M2StaticMG_US_EP1",
-    "DSHKM_TK_INS_EP1"];
+   "TOW_TriPod_US_EP1",
+   "Igla_AA_pod_TK_EP1",
+   "DSHKM_TK_INS_EP1"];
 
 //Object List - Random Helis.
 staticHeliList = [
