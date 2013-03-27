@@ -90,7 +90,7 @@ playerSkins = [
 ["TOG | Yvnu", "18409030", "", "", ""],
 ["iRandomist", "31022534", "GUE_Soldier_Sab", "", ""],
 ["simwah", "3467584", "", "US_Soldier_Spotter_EP1", "TK_Soldier_SniperH_EP1"],
-["drummerguy103", "45863494", "GUE_Soldier_Scout", "", ""],
+["drummerguy103", "45863494", "GUE_Soldier_Medic", "", ""],
 ["Yawdem", "25320262", "GUE_Soldier_3", "", ""],
 ["EvilCbass117", "32516294", "GUE_Soldier_Scout", "", ""],
 ["PabloElKillo", "15255494", "GUE_Soldier_Sniper", "", ""],
