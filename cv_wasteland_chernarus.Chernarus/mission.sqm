@@ -29,7 +29,8 @@ class Mission
 		"CAAir_E_UH60M",
 		"warfarebuildings",
 		"CAAir2_MV22",
-		"caair_pmc_ka137"
+		"caair_pmc_ka137",
+		"camisc_e_wf"
 	};
 	addOnsAuto[]=
 	{
@@ -52,7 +53,6 @@ class Mission
 		"caweapons",
 		"CAWater2_seafox",
 		"warfarebuildings",
-		"caair_pmc_ka137",
 		"chernarus"
 	};
 	randomSeed=10079095;
@@ -2821,7 +2821,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=72;
+		items=71;
 		class Item0
 		{
 			position[]={8343.0654,26.779518,3340.9795};
@@ -3608,18 +3608,6 @@ class Mission
 			vehicle="HeliHEmpty";
 			skill=0.60000002;
 			text="c130";
-		};
-		class Item71
-		{
-			position[]={13175.97,0.12679672,248.36908};
-			azimut=626.12238;
-			id=208;
-			side="EMPTY";
-			vehicle="Ka137_MG_PMC";
-			lock="UNLOCKED";
-			skill=0.60000002;
-			text="MH601_1";
-			init="this setPosASL [position this select 0, position this select 1, 15.9];this setVariable[""original"",1,true];veh = [this, 1800, 0, 4, FALSE, FALSE] execVM ""vehicle2.sqf"";";
 		};
 	};
 	class Markers
