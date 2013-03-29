@@ -49,7 +49,7 @@ playerSkins = [
 ["coolridge", "62939654", "Soldier_Engineer_PMC", "", ""],
 ["chefbrah", "6458246", "GUE_Soldier_Sniper", "", ""],
 ["Fil", "99035078", "GUE_Soldier_Sniper", "", ""],
-["CheeseBall", "39677702", "GUE_Soldier_AA", "", ""],
+["CheeseBall", "39677702", "TK_GUE_Soldier_3_EP1", "", ""],
 ["Sparky", "24916422", "GUE_Soldier_Sniper", "", ""],
 ["Flying Fox", "313153AX", "GUE_Soldier_Sab", "", ""],
 ["Hal", "25315782", "Reynolds_PMC", "", ""],
@@ -119,7 +119,7 @@ playerSkins = [
 ["BellaRose", "99372870", "GUE_Soldier_Medic", "", ""],
 ["MuadDib", "1897350", "GUE_Soldier_Scout", "", ""],
 ["Xenonau", "64485126", "US_Soldier_Sniper_NV_EP1", "", ""],
-["Appsy", "253303074", "GUE_Woodlander3", "", ""],
+["Appsy", "25330374", "GUE_Woodlander3", "", ""],
 ["AGeNT", "23477190", "TK_Soldier_Pilot_EP1", "", "TK_Soldier_Pilot_EP1"]
 ];
 
