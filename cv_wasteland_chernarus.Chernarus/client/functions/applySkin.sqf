@@ -91,7 +91,7 @@ playerSkins = [
 ["iRandomist", "31022534", "GUE_Soldier_Sab", "", ""],
 ["simwah", "3467584", "", "US_Soldier_Spotter_EP1", "TK_Soldier_SniperH_EP1"],
 ["drummerguy103", "45863494", "GUE_Soldier_Medic", "", ""],
-["Yawdem", "25320262", "GUE_Soldier_3", "", ""],
+["Yawdem", "25320262", "GUE_Woodlander2", "", ""],
 ["EvilCbass117", "32516294", "GUE_Soldier_Scout", "", ""],
 ["PabloElKillo", "15255494", "GUE_Soldier_Sniper", "", ""],
 ["Venerable", "13989382", "GUE_Soldier_Sniper", "FR_GL", "RUS_Soldier1"],
@@ -120,7 +120,6 @@ playerSkins = [
 ["MuadDib", "1897350", "GUE_Soldier_Scout", "", ""],
 ["Xenonau", "64485126", "US_Soldier_Sniper_NV_EP1", "", ""],
 ["Appsy", "253303074", "GUE_Woodlander3", "", ""],
-["Yawdem", "25320262", "GUE_Woodlander2", "", ""],
 ["AGeNT", "23477190", "TK_Soldier_Pilot_EP1", "", "TK_Soldier_Pilot_EP1"]
 ];
 
