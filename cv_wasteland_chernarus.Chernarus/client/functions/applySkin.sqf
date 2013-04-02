@@ -14,7 +14,7 @@ playerSkins = [
 ["DIRTY TURTLE", "26459782", "", "", ""],
 ["{FB} DauntingDanage", "78841542", "", "BAF_Soldier_Sniper_MTP", ""],
 ["{FB} Midstrength", "20717638", "", "GER_Soldier_Scout_EP1", ""],
-["Jeekums", "60395718", "GUE_Soldier_AA", "", ""],
+["shan", "94119046", "GUE_Soldier_Sab", "", ""],
 ["HumanitysLastLight", "52243526", "GUE_Soldier_AA", "", ""],
 ["Unskinny", "39773894", "GUE_Soldier_AA", "", ""],
 ["TOG | Deadzy", "19610374", "GUE_Soldier_Sab", "", ""],
