@@ -122,6 +122,7 @@ playerSkins = [
 ["Appsy", "25330374", "GUE_Woodlander3", "", ""],
 ["Goatlol", "7232134", "GUE_Soldier_Medic", "", ""],
 ["LoneWolf", "92431814", "GUE_Soldier_Sniper", "", ""],
+["Whfbee", "16943302", "GUE_Soldier_sab", "", ""],
 ["Saber", "92179782", "GUE_Soldier_Sniper", "", ""],
 ["AGeNT", "23477190", "TK_Soldier_Pilot_EP1", "", "TK_Soldier_Pilot_EP1"]
 ];
