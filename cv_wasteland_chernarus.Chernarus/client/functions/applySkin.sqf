@@ -109,7 +109,6 @@ playerSkins = [
 ["Brownie", "58048070", "GUE_Soldier_Sab", "", ""],
 ["Old Man Peters", "41610630", "GUE_Soldier_Scout", "", ""],
 ["Mik3y", "64534214", "GUE_Soldier_Sniper", "USMC_SoldierS_Sniper", "RU_Soldier_Sniper"],
-["Xeonau", "64485126", "", "US_Soldier_Sniper_NV_EP1", ""],
 ["Kila01", "56660230", "GUE_Soldier_sab", "", ""],
 ["EvilCbass117", "32516294", "GUE_Soldier_Scout", "", ""],
 ["TheCads", "48480006", "GUE_Soldier_sab", "", ""],
@@ -118,12 +117,12 @@ playerSkins = [
 ["Dunkinator", "79609670", "GUE_Soldier_sab", "", ""],
 ["BellaRose", "99372870", "GUE_Soldier_Medic", "", ""],
 ["MuadDib", "1897350", "GUE_Soldier_Scout", "", ""],
-["Xenonau", "64485126", "US_Soldier_Sniper_NV_EP1", "", ""],
 ["Appsy", "25330374", "GUE_Woodlander3", "", ""],
 ["Goatlol", "7232134", "GUE_Soldier_Medic", "", ""],
 ["LoneWolf", "92431814", "GUE_Soldier_Sniper", "", ""],
 ["Whfbee", "16943302", "GUE_Soldier_sab", "", ""],
 ["Saber", "92179782", "GUE_Soldier_Sniper", "", ""],
+["Xenonau", "64485126", "GUE_Commander", "", ""],
 ["AGeNT", "23477190", "TK_Soldier_Pilot_EP1", "", "TK_Soldier_Pilot_EP1"]
 ];
 
