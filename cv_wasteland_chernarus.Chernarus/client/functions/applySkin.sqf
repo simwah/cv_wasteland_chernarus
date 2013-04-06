@@ -111,7 +111,7 @@ playerSkins = [
 ["Mik3y", "64534214", "GUE_Soldier_Sniper", "USMC_SoldierS_Sniper", "RU_Soldier_Sniper"],
 ["Kila01", "56660230", "GUE_Soldier_sab", "", ""],
 ["EvilCbass117", "32516294", "GUE_Soldier_Scout", "", ""],
-["TheCads", "48480006", "GUE_Soldier_sab", "", ""],
+["TheCads", "48480006", "INS_Soldier_Sab", "", ""],
 ["Bigdog", "73058886", "Soldier_Sniper_KSVK_PMC", "", ""],
 ["Dorian", "79491014", "GUE_Soldier_sab", "", ""],
 ["Dunkinator", "79609670", "GUE_Soldier_sab", "", ""],
@@ -123,6 +123,7 @@ playerSkins = [
 ["Whfbee", "16943302", "GUE_Soldier_sab", "", ""],
 ["Saber", "92179782", "GUE_Soldier_Sniper", "", ""],
 ["Xenonau", "64485126", "GUE_Commander", "", ""],
+["Chaos", "19538694", "GUE_Soldier_Sab", "", ""],
 ["AGeNT", "23477190", "TK_Soldier_Pilot_EP1", "", "TK_Soldier_Pilot_EP1"]
 ];
 
