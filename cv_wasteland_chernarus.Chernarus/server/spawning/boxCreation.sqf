@@ -67,11 +67,14 @@ switch(_selectedBox) do {
         _currBox addWeaponCargoGlobal ["AK_107_kobra",2];
 		_currBox addWeaponCargoGlobal ["AK_107_GL_kobra",2];
 		_currBox addWeaponCargoGlobal ["AKS_74_U",2];
+		_currBox addWeaponCargoGlobal ["AK_107_pso",2];
+		_currBox addWeaponCargoGlobal ["AKS_74_UN_kobra ",2];
 		_currBox addWeaponCargoGlobal ["MakarovSD",2];	
         
         // Add ammunition
         _currBox addMagazineCargoGlobal ["30Rnd_545x39_AK",25];
-        _currBox addMagazineCargoGlobal ["8Rnd_9x18_MakarovSD",24];
+        _currBox addMagazineCargoGlobal ["30Rnd_545x39_AKSD",25];
+	_currBox addMagazineCargoGlobal ["8Rnd_9x18_MakarovSD",24];
         _currBox addMagazineCargoGlobal ["HandGrenade",10];
         _currBox addMagazineCargoGlobal ["1Rnd_HE_GP25",15];
         _currBox addMagazineCargoGlobal ["1Rnd_SMOKE_GP25",15];
