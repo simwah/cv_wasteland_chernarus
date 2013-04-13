@@ -66,8 +66,7 @@ switch(_selectedBox) do {
         // Add new weapons before ammunition
         _currBox addWeaponCargoGlobal ["AK_107_kobra",2];
 		_currBox addWeaponCargoGlobal ["AK_107_GL_kobra",2];
-		_currBox addWeaponCargoGlobal ["AK_107_pso",2];
-		_currBox addWeaponCargoGlobal ["AKS_74_UN_kobra ",2];
+		_currBox addWeaponCargoGlobal ["AKS_74_U",2];
 		_currBox addWeaponCargoGlobal ["MakarovSD",2];	
         
         // Add ammunition
@@ -85,18 +84,18 @@ switch(_selectedBox) do {
 		clearWeaponCargoGlobal _currBox;
         
         // Add new weapons before ammunition
-        _currBox addWeaponCargoGlobal ["AK_47_M",2];
-		_currBox addWeaponCargoGlobal ["AK_74",2];
-		_currBox addWeaponCargoGlobal ["Saiga12K",2];
-		_currBox addWeaponCargoGlobal ["Makarov",2];	
+        _currBox addWeaponCargoGlobal ["AK_107_kobra",2];
+		_currBox addWeaponCargoGlobal ["AK_107_GL_kobra",2];
+		_currBox addWeaponCargoGlobal ["AKS_74_U",2];
+		_currBox addWeaponCargoGlobal ["AK_107_pso",2];
+		_currBox addWeaponCargoGlobal ["MakarovSD",2];	
         
         // Add ammunition
-        _currBox addMagazineCargoGlobal ["30Rnd_545x39_AK",15];
-        _currBox addMagazineCargoGlobal ["30Rnd_762x39_AK47",25];
-        _currBox addMagazineCargoGlobal ["8Rnd_9x18_Makarov",5];
-        _currBox addMagazineCargoGlobal ["HandGrenade",5];
-        _currBox addMagazineCargoGlobal ["8Rnd_B_Saiga12_74Slug",25];
-        _currBox addMagazineCargoGlobal ["8Rnd_B_Saiga12_Pellets",25];
+        _currBox addMagazineCargoGlobal ["30Rnd_545x39_AK",25];
+        _currBox addMagazineCargoGlobal ["8Rnd_9x18_MakarovSD",24];
+        _currBox addMagazineCargoGlobal ["HandGrenade",10];
+        _currBox addMagazineCargoGlobal ["1Rnd_HE_GP25",15];
+        _currBox addMagazineCargoGlobal ["1Rnd_SMOKE_GP25",15];
     };
     case "basicGER": { // G36's everywhere...
     	_currBox = createVehicle ["GERBasicWeapons_EP1", _selectedBoxPos,[], 30, "NONE"];
