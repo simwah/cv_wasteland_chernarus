@@ -35,7 +35,7 @@ playerSkins = [
 ["Dadinator�", "7655750", "GUE_Soldier_Medic", "", ""],
 ["Click85", "90884614", "Soldier_PMC", "", ""],
 ["iRandomist", "31022534", "GUE_Soldier_Sab", "", ""],
-["simwah", "3467584", "", "US_Soldier_Spotter_EP1", "TK_Soldier_SniperH_EP1"],
+["simwah", "3467584", "GUE_Soldier_Sniper", "US_Soldier_Spotter_EP1", "TK_Soldier_SniperH_EP1"],
 ["drummerguy103", "45863494", "GUE_Soldier_Medic", "", ""],
 ["Yawdem", "25320262", "GUE_Woodlander2", "", ""],
 ["PabloElKillo", "15255494", "GUE_Soldier_Sniper", "", ""],
@@ -45,7 +45,7 @@ playerSkins = [
 ["ColBangBang", "15257094", "GUE_Soldier_Sniper", "", ""],
 ["rhys jones", "6248704", "GUE_Soldier_1", "", ""],
 ["gibly", "87825094", "GUE_Soldier_1", "", ""],
-["Rocksalt", "29021830", "", "US_Soldier_Spotter_EP1", "TK_Soldier_SniperH_EP1"],
+["Rocksalt", "29021830", "GUE_Soldier_Sniper", "US_Soldier_Spotter_EP1", "TK_Soldier_SniperH_EP1"],
 ["FurryWhitePoo", "87391622", "", "GER_Soldier_Medic_EP1", ""],
 ["ColdCamV", "12743622", "GUE_Commander", "FR_Marksman", "INS_Soldier_GL"],
 ["Brownie", "58048070", "GUE_Soldier_Sab", "", ""],
@@ -67,7 +67,9 @@ playerSkins = [
 ["Xenonau", "64485126", "GUE_Commander", "", ""],
 ["Passout", "42508230", "Soldier_Engineer_PMC", "", ""],
 ["Chaos", "19538694", "GUE_Soldier_Sab", "", ""],
-["AGeNT", "23477190", "TK_Soldier_Pilot_EP1", "", "TK_Soldier_Pilot_EP1"]
+["AGeNT", "23477190", "GUE_Soldier_Medic", "FR_Sapper", "TK_Soldier_Pilot_EP1"],
+["Frag", "29164550", "GUE_Soldier_2", "", ""],
+["Proposition Joe", "67923846", "GUE_Soldier_Medic", "", ""]
 ];
 
 _uid = getPlayerUID _player;
