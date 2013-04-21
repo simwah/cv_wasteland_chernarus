@@ -46,7 +46,7 @@ playerSkins = [
 ["rhys jones", "6248704", "GUE_Soldier_1", "", ""],
 ["gibly", "87825094", "GUE_Soldier_1", "", ""],
 ["Rocksalt", "29021830", "GUE_Soldier_Sniper", "US_Soldier_Spotter_EP1", "TK_Soldier_SniperH_EP1"],
-["FurryWhitePoo", "87391622", "", "GER_Soldier_Medic_EP1", ""],
+["FurryWhitePoo", "87391622", "GUE_Soldier_GL", "FR_R", "RUS_Soldier3"],
 ["ColdCamV", "12743622", "GUE_Commander", "FR_Marksman", "INS_Soldier_GL"],
 ["Brownie", "58048070", "GUE_Soldier_Sab", "", ""],
 ["Old Man Peters", "41610630", "GUE_Soldier_Scout", "", ""],
