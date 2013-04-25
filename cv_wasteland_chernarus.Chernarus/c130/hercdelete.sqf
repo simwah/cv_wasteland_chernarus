@@ -2,7 +2,6 @@
 
 if !((getPlayerUID player) in serverAdministrators) exitWith {hint "SiG Server Admin access only"}; //uncomment to make avalable for server admins only
 
-if ((getPosATL herc select 2) < 50) exitWith {hint "Altitude too low! fly above 50 metres!"}; // stop drops below 50 metres
 private ["_car","_mags","_rnd","_weapon","_mag"];
 _car = _this select 0;
 

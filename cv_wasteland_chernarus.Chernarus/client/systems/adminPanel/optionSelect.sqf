@@ -110,6 +110,12 @@ if ((_uid in moderators) OR (_uid in administrators) OR (_uid in serverAdministr
                                 openMap true; 
                                 closeDialog 0;
                             };
+                              case 8: // Console
+                            {
+                                closeDialog 0;
+                                execVM "c130\herc.sqf";this allowdamage false;
+                                closeDialog 0;
+                            };
 			};
 	    };
 	    case 3: //Debug panel

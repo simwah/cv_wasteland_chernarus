@@ -1,6 +1,4 @@
 if (!local player) exitWith {};
-if !((getPlayerUID player) in serverAdministrators) exitWith {hint "Server Admin access only"};
-if (alive herc) exitWith {hint "C130 Already spawned"};
  
 herc = createVehicle ["C130J_US_EP1", player, [], 0, "FLY"]; 
 herc setPosASL [(getMarkerPos "c130") select 0,(getMarkerPos "c130") select 1,1000];

@@ -20,10 +20,11 @@ if ((_uid in moderators) OR (_uid in administrators) OR (_uid in serverAdministr
             "Vehicle Management",
             "Tags",
             "Teleport",
-	    "Money",
-	    "Debug Menu",
+	    	"Money",
+	    	"Debug Menu",
             "Console",
-            "Sattelite"
+            "Sattelite",
+            "C130"
 	];
 	
 	{
