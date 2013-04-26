@@ -5,6 +5,11 @@
 //	@file Description: The main init.
 //	@file Args:
 
+player setVariable ["pfront", false,true];
+player setVariable ["gunner", false,true];
+player setVariable ["bleft", false,true];
+player setVariable ["bright", false,true];
+
 if (isnil "RE") then {[] execVM "\ca\Modules\MP\data\scripts\MPframework.sqf"};
 
 StartProgress = false;

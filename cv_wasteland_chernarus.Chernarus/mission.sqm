@@ -30,7 +30,8 @@ class Mission
 		"warfarebuildings",
 		"CAAir2_MV22",
 		"caair_pmc_ka137",
-		"camisc_e_wf"
+		"camisc_e_wf",
+		"cawheeled_pmc_armoredsuv"
 	};
 	addOnsAuto[]=
 	{
@@ -8829,7 +8830,7 @@ class Mission
 		};
 		class Item859
 		{
-			position[]={4611.2344,300.48544,5933.6987};
+			position[]={7142.2124,312.51193,8005.8145};
 			name="Mission_4";
 			type="Empty";
 			colorName="ColorOrange";
@@ -8885,7 +8886,7 @@ class Mission
 		};
 		class Item867
 		{
-			position[]={9319.2158,50.667152,2308.3706};
+			position[]={4833.4326,9,2406.9705};
 			name="Mission_12";
 			type="Empty";
 			colorName="ColorOrange";
@@ -8913,7 +8914,7 @@ class Mission
 		};
 		class Item871
 		{
-			position[]={11289.424,260.20465,5058.1201};
+			position[]={11288.713,234.96591,7589.3364};
 			name="Mission_16";
 			type="Empty";
 			colorName="ColorOrange";
@@ -9039,21 +9040,21 @@ class Mission
 		};
 		class Item889
 		{
-			position[]={8278.7607,7.5109239,2890.4907};
+			position[]={8443.374,6.7159495,2698.792};
 			name="Mission_34";
 			type="Empty";
 			colorName="ColorOrange";
 		};
 		class Item890
 		{
-			position[]={5018.3506,338.6489,7609.7227};
+			position[]={4612.4683,297.96442,7078.7588};
 			name="Mission_35";
 			type="Empty";
 			colorName="ColorOrange";
 		};
 		class Item891
 		{
-			position[]={8386.7559,319.90643,6214.4844};
+			position[]={10130.789,267.27792,5857.3325};
 			name="Mission_36";
 			type="Empty";
 			colorName="ColorOrange";
@@ -9102,21 +9103,21 @@ class Mission
 		};
 		class Item898
 		{
-			position[]={3320.0156,6.0843697,2137.2566};
+			position[]={11065.992,280.54861,4906.7261};
 			name="Mission_43";
 			type="Empty";
 			colorName="ColorOrange";
 		};
 		class Item899
 		{
-			position[]={9975.4082,159.41219,10535.308};
+			position[]={10652.582,132.51491,10716.607};
 			name="Mission_44";
 			type="Empty";
 			colorName="ColorOrange";
 		};
 		class Item900
 		{
-			position[]={7116.4331,382.24567,9625.2773};
+			position[]={13040.163,124.38869,5916.5889};
 			name="Mission_45";
 			type="Empty";
 			colorName="ColorOrange";

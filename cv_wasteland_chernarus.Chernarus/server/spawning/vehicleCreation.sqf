@@ -84,7 +84,7 @@ if (_type == 2) then {
 	_car setVariable["original",1,true];
 };
 
-if (_car isKindOf "SUV_PMC") then {
-    _car setVehicleInit "this setObjectTexture [0, ""server\textures\camo10.paa""]";
+if (_car isKindOf "ArmoredSUV_PMC") then {
+    _car setVehicleInit "nul = [this] execVM 'SUV_Initial.sqf'; nul = [this] execVM 'Lock.sqf';this addAction [('<t color=''#7FFF00''>' + ('Open Hatch') + '</t>'),'gun.sqf'];";
     processInitCommands;
 };
