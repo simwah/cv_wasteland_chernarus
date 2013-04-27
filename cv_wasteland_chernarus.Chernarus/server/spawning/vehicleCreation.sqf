@@ -1,4 +1,3 @@
-
 //	@file Version: 1.0
 //	@file Name: vehicleCreation.sqf
 //	@file Author: [404] Deadbeat
@@ -84,7 +83,3 @@ if (_type == 2) then {
 	_car setVariable["original",1,true];
 };
 
-if (_car isKindOf "ArmoredSUV_PMC") then {
-    _car setVehicleInit "nul = [this] execVM 'SUV_Initial.sqf'; nul = [this] execVM 'Lock.sqf';this addAction [('<t color=''#7FFF00''>' + ('Open Hatch') + '</t>'),'gun.sqf'];";
-    processInitCommands;
-};
