@@ -16,7 +16,7 @@ if (_isWreck == 0) then {
 	//diag_log "Spawning heli complete...";
 	_spawnType = staticHeliList select (random (count staticHeliList - 1));
 	_currHeli = createVehicle [_spawnType,_spawnPos,[], 50,"None"]; 
-	
+	_currHeli setVehicleInit "nul=this addAction ['HALO JUMP','jump.sqf',[],1,false,true,'','_this in _target']";
 	_currHeli setpos [getpos _currHeli select 0,getpos _currHeli select 1,0];
 	
 	clearMagazineCargoGlobal _currHeli;
@@ -24,7 +24,8 @@ if (_isWreck == 0) then {
 	
 	//Set original status to stop ner-do-wells
 	_currHeli setVariable["original",1,true];
-} else {
+	
+	} else {
 	//diag_log "Spawning heli wreck...";
 	_spawnType = staticHeliList select (random (count staticHeliList - 1));
 	_currHeli = createVehicle [_spawnType,_spawnPos,[], 50,"None"]; 
