@@ -31,7 +31,8 @@ class Mission
 		"CAAir2_MV22",
 		"caair_pmc_ka137",
 		"camisc_e_wf",
-		"cawheeled_pmc_armoredsuv"
+		"cawheeled_pmc_armoredsuv",
+		"ca_modules"
 	};
 	addOnsAuto[]=
 	{
@@ -3209,7 +3210,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MH60S";
 			skill=0.60000002;
-			init="veh = [this, 1800, 0, 0, FALSE, FALSE] execVM ""vehicle2.sqf"";this addAction [""HALO JUMP"",""jump.sqf"",[],1,false,true,"""",""_this in _target""];";
+			init="this addAction [""HALO JUMP"",""jump.sqf"",[],1,false,true,"""",""_this in _target""];veh = [this, 1500, 3600, 0,false,false, ""this addAction ['HALO JUMP','jump.sqf',[],1,false,true,'','_this in _target'];""] execVM ""vehicle.sqf""  ";
 		};
 		class Item37
 		{
@@ -3219,7 +3220,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UH60M_EP1";
 			skill=0.60000002;
-			init="veh = [this, 1800, 0, 0, FALSE, FALSE] execVM ""vehicle2.sqf"";this addAction [""HALO JUMP"",""jump.sqf"",[],1,false,true,"""",""_this in _target""];";
+			init="this addAction [""HALO JUMP"",""jump.sqf"",[],1,false,true,"""",""_this in _target""];veh = [this, 1500, 3600, 0,false,false, ""this addAction ['HALO JUMP','jump.sqf',[],1,false,true,'','_this in _target'];""] execVM ""vehicle.sqf""";
 		};
 		class Item38
 		{
@@ -3229,7 +3230,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UH60M_MEV_EP1";
 			skill=0.60000002;
-			init="veh = [this, 1800, 0, 0, FALSE, FALSE] execVM ""vehicle2.sqf"";this addAction [""HALO JUMP"",""jump.sqf"",[],1,false,true,"""",""_this in _target""];";
+			init="this addAction [""HALO JUMP"",""jump.sqf"",[],1,false,true,"""",""_this in _target""];veh = [this, 1500, 3600, 0,false,false, ""this addAction ['HALO JUMP','jump.sqf',[],1,false,true,'','_this in _target'];""] execVM ""vehicle.sqf""";
 		};
 		class Item39
 		{
