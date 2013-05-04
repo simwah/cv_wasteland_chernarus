@@ -147,8 +147,6 @@ objectList = [
     "Concrete_Wall_EP1",
     "Concrete_Wall_EP1",
     "Land_Misc_Cargo1E_EP1",
-    "Land_Misc_Cargo1E_EP1",
-    "Land_Misc_Cargo1E_EP1",
     "Land_fort_bagfence_long",
     "Land_fort_bagfence_long",
     "Land_fort_bagfence_round",
@@ -197,7 +195,8 @@ objectList = [
 staticWeaponsList = [
     "M2StaticMG_US_EP1",
    "TOW_TriPod_US_EP1",
-   "Igla_AA_pod_TK_EP1",
+   "M2HD_mini_TriPod_US_EP1",
+   "MK19_TriPod_US_EP1",
    "DSHKM_TK_INS_EP1"];
 
 //Object List - Random Helis.
@@ -399,3 +398,4 @@ CitySpawnMarkers = [
 		["Town_45",false],
 		["Town_46",false]
 		];
+
