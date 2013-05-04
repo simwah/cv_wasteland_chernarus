@@ -26,9 +26,9 @@ _lastMission = "nomission";
 while {true} do
 {
     //Select Mission
-    _randomIndex = (random (count _MMarray - 1));
+   	 _randomIndex = (random (count _MMarray - 1));
 	_mission = _MMarray select _randomIndex select 0;
-    _missionType = _MMarray select _randomIndex select 1;
+    	_missionType = _MMarray select _randomIndex select 1;
 
 	//Select new mission if the same
     if(str(_missionType) == _lastMission) then
