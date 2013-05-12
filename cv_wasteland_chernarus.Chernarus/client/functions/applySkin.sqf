@@ -70,6 +70,7 @@ playerSkins = [
 ["Chaos", "19538694", "GUE_Soldier_Sab", "", ""],
 ["AGeNT", "23477190", "GUE_Soldier_Medic", "FR_Sapper", "TK_Soldier_Pilot_EP1"],
 ["Frag", "29164550", "GUE_Soldier_2", "", ""],
+["Buttercup", "95309638", "", "CDF_Soldier_Engineer", ""],
 ["Proposition Joe", "67923846", "GUE_Soldier_Medic", "", ""]
 ];
 
